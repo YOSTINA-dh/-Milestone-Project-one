@@ -22,10 +22,6 @@
      text-align: center;
  }
 
-
- /*---------------------Titles-------------------*/
-
- 
 /*-------------------------------------------- Header--------------------- */
 *{
     margin: 0px;
@@ -33,16 +29,56 @@
     box-sizing: border-box;
 }
 
-/*-------------------------home-------------------*/
- .home.page{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    
-}{
-    padding-top: 40px;
-    padding-bottom: 40px;
+
+.nav-bar:{
+    top: 0;
+    position:sticky;
+    z-index: 2;
     
 }
+
+#navbar:{
+    background-color: rgb(231, 129, 129)
+}
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #337ab7;
+}
+/*-------------------------home-------------------*/
+ .home.page{
+    margin:;
+    padding-bottom: 0px;
+    
+}
+
+.carousel-caption {
+    top: 60%;
+    transform: translateY(-60%);
+    text-shadow: none;
+    text-align: center;
+}
+
+.carousel-inner {
+   
+    display: block
+   
+
+}
+
+.carousel-item image
+{
+    height:inherit;
+    width: 100%;
+    position: absolute;
+    
+}
+}
+
+.carousel-indicators {
+    z-index: 2;
+}
+
  .scroll-btn{
     bottom: 30px;
     position: absolute;
@@ -87,52 +123,25 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #14b97a; 
       }
-
-.carousel-indicators{
-    z-index: 1;
-}
-
-.carousel-caption{
-    top: 60%;
-    transform: translateY(-60%);
-    text-shadow: rgb(233, 145, 14);
-    text-align: center;
-}
-
-.carousel-inner {
-    height:700px;
-   
-
-}
-
-.carousel-item image
-{
-    height:inherit;
-    width: 120%;
-    position: absolute;
-   
-
-}
 /*-------------------------------------About Me------------------------------*/
 .about {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
  
-
 .profile-img {
     height:inherit;
     border-radius: 100%;
     padding:0px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .boxed {
     border: 2px solid rgb(112, 117, 112) ;
-    width: 600px;
-    height: 650px;
+    width: 400px;
+    height: 750px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
     background-color: rgb(207, 250, 207);
     -moz-box-shadow: 0 0 5px 5px #666;
     -webkit-box-shadow: 0 0 5px 5px #666;
@@ -332,4 +341,3 @@
     justify-content: center;
     position: relative;
 }
-
