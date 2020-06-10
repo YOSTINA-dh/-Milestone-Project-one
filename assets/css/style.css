@@ -124,9 +124,6 @@ a.navbar-brand {
 
 /*-------------------------home-------------------*/
 
-.home-page{
-    background-color: black;
-} 
  .scroll-btn{
     bottom: 30px;
     position: absolute;
@@ -183,12 +180,19 @@ a.navbar-brand {
     text-align: center;
 }
 
-.carousel-inner>.item>image {
-    height: 100vh;
-    max-width: none;
+.carousel-inner {
+    height:200px;
+   
 
 }
 
+.carousel-item image
+{
+    height:inherit;
+    width: 120%;
+   
+
+}
 /*-------------------------------------About Me------------------------------*/
 .about {
     padding-top: 100px;
