@@ -202,35 +202,55 @@ a.navbar-brand {
  
 
 .profile-img {
-    height: 600px;
+    height:inherit;
     border-radius: 100%;
+    padding:0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .boxed {
     border: 2px solid rgb(112, 117, 112) ;
-    width: 500px;
-    height: inherit;
-    margin: 20px;
-    padding: 20px;
+    width: 600px;
+    height: 650px;
+    margin: 10px;
+    padding: 10px;
     background-color: rgb(207, 250, 207);
     -moz-box-shadow: 0 0 5px 5px #666;
     -webkit-box-shadow: 0 0 5px 5px #666;
-    box-shadow: 0 0 10px 10px #666;
+    box-shadow: 0 0 20px 20px #666;
    
 
 }
 
 .headertekst {
     text-align: center;
-      width:100%
+      width:100%;
+      color: whitesmoke;
+     font-family:sans-serif;
+      font-style: oblique;
+      font-weight:bolder;
+      
     }
   h1,
-  h2{ 
+  h5{ 
       padding: 4px;
       width: 30%;
       font-family:sans-serif;
       font-style: oblique;
       font-weight:bolder;
+      color: white;
+    
   }
+
+ .text-container {
+     color: white;
+     font-family:sans-serif;
+      font-style: oblique;
+      font-weight:bolder;
+      
+
+ }
+
    
 
   /*----------------------------------Resume------------------------------*/
@@ -297,12 +317,12 @@ a.navbar-brand {
 
 }
     /* ----------------------------------------Skills--------------------------------------- */
-
 .progress {
     position: relative;
+    border: 1px solid black;
     height: 10px;
     margin-bottom: 10px;
-    border-radius: 16px !important;
+    border-radius: 10px !important;
 
 }
 
@@ -317,6 +337,7 @@ a.navbar-brand {
 
 .progress-section {
     margin: 20px 20px;
+    padding: 10px;
     
 }
 /*-----------------------------------------Services--------------------------*/
@@ -359,7 +380,7 @@ a.navbar-brand {
 
 
 .services-box:hover{
-    background: rgb(46, 11, 11);
+    background: rgb(119, 223, 142);
     color: #fff;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
