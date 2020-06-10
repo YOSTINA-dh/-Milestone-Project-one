@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700,800,900')
 
-
  body {
     margin: 0;
     padding: 0;
@@ -26,100 +25,12 @@
 
  /*---------------------Titles-------------------*/
 
- h1,
- h2,
- h3,
- h4 {
-    font-size: 32px;
-    text-transform: uppercase;
-    margin: 20px auto 10px;
-    padding-bottom: 10px;
-    font-weight: 800px;
-    letter-spacing: 1px;
-   
-}
-
-
-
-.home-header,
-.sub-header {
-    letter-spacing: 1px;
-    color: rgb(255, 255, 255);
-}
-
+ 
 /*-------------------------------------------- Header--------------------- */
-
-header {
-    font-size: 16px;
-}
-
-nav.navbar.navbar-inverse {
-    position: fixed;
-    width: 100vw;
-    z-index: 2;
-}
-
-.navbar-inverse {
-    background-color: #080606;
-}
-
-.navbar-inverse .navbar-brand {
-    color:rgb(117, 184, 128);
-}
-
-.navbar-inverse .navbar-nav>li>a {
-    color: rgba(94, 197, 146, 0.9);
-}
-
-nav.navbar.navbar-inverse {
-    margin-bottom: 0;
-    border-radius: 0px;
-    border: none;
-}
-
-.navbar-brand img{
-    height: 30px;
-}
-
-a.navbar-brand {
-    font-weight: 500;
-    word-spacing: 2px;
-}
-
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: rgba(135, 186, 206, 0.9);
-}
-
-.navbar-inverse .navbar-toggle {
-    border-color: transparent;
-}
-
-
-/* Header - Hover & Active section */
-
-.navbar-inverse .navbar-nav>.active>a,
-.navbar-inverse .navbar-nav>.active>a:focus,
-.navbar-inverse .navbar-nav>.active>a:hover {
-    color: #79bd77;
-    background-color: rgba(131, 214, 193, 0.8);
-    transition: all 0.1s ease-in-out;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-}
-
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-nav>li>a:hover {
-    color: #4f865be0;
-    background-color: transparent;
-    transition: all 0.6s ease-in-out;
-    -webkit-transition: all 0.6s ease-in-out;
-    -moz-transition: all 0.6s ease-in-out;
-}
-
-
-.navbar-inverse .navbar-toggle:focus,
-.navbar-inverse .navbar-toggle:hover {
-    background-color: rgb(132, 207, 166);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 /*-------------------------home-------------------*/
