@@ -174,14 +174,14 @@ a.navbar-brand {
 }
 
 .carousel-caption{
-    top: 70%;
-    transform: translateY(-70%);
+    top: 60%;
+    transform: translateY(-60%);
     text-shadow: rgb(233, 145, 14);
     text-align: center;
 }
 
 .carousel-inner {
-    height:200px;
+    height:700px;
    
 
 }
@@ -190,6 +190,7 @@ a.navbar-brand {
 {
     height:inherit;
     width: 120%;
+    position: absolute;
    
 
 }
