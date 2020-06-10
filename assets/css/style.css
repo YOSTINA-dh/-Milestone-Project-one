@@ -230,23 +230,13 @@ a.navbar-brand {
   /*----------------------------------Resume------------------------------*/
 
    .resume{
-    padding: 50px;
+    padding-top: 30px;
     padding-bottom: 30px;
-    background: #f9f9f9;
+    
     
 }
 
-  #resume{
-    
-    background: rgb(165, 152, 152);
-    animation: mymove 5s infinite;
-  }
   
-  @keyframes mymove {
-    from {background-color: rgb(161, 103, 103);}
-    to {background-color: rgba(12, 185, 128, 0.212);}
-}
-
 
 
     .timeline {
