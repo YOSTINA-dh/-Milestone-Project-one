@@ -151,60 +151,20 @@ scroll-btn{
 
 /*-------------------------------------About Me------------------------------*/
 .about {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
- 
-.profile-img {
-    height:inherit;
-    border-radius: 100%;
-    padding:0px;
+
+.profile-img{
+    border-radius: 50%;
+    height: inherit;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-.boxed {
-    border: 2px solid rgb(112, 117, 112) ;
-    width: 400px;
-    height: 750px;
-    margin: 10px;
-    padding: 5px;
-    background-color: rgb(207, 250, 207);
-    -moz-box-shadow: 0 0 5px 5px #666;
-    -webkit-box-shadow: 0 0 5px 5px #666;
-    box-shadow: 0 0 20px 20px #666;
-   
+    padding: 0px;
+    width: 300px;
+    height: 400px;
 
 }
-
-.headertekst {
-    text-align: center;
-      width:100%;
-      color: whitesmoke;
-     font-family:sans-serif;
-      font-style: oblique;
-      font-weight:bolder;
-      
-    }
-  h1,
-  h5{ 
-      padding: 4px;
-      width: 30%;
-      font-family:sans-serif;
-      font-style: oblique;
-      font-weight:bolder;
-      color: white;
-    
-  }
-
- .text-container {
-     color: white;
-     font-family:sans-serif;
-      font-style: oblique;
-      font-weight:bolder;
-      
-
- }
-
    
 
   /*----------------------------------Resume------------------------------*/
@@ -268,35 +228,9 @@ scroll-btn{
     left:20px;
     width:20px;
     z-index: 2;
-
-}
-    /* ----------------------------------------Skills--------------------------------------- */
-.progress {
-    position: relative;
-    border: 1px solid black;
-    height: 10px;
-    margin-bottom: 10px;
-    border-radius: 10px !important;
-
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 200;
-    padding: 2px 20px 2px 10px;
-    color:wheat;
-    background-color: rgba(206, 194, 194, 0.582);
-}
-
-.progress-section {
-    margin: 20px 20px;
-    padding: 10px;
-    
-}
 /*-----------------------------------------Services--------------------------*/
 
-.services{
+ #services {
     padding-top: 50px;
     padding-bottom: 50Px;
 }
@@ -348,22 +282,16 @@ scroll-btn{
 }  
 
 
-
 /*--------------------------Contact---------------------------------*/
 
 .contact{
     color: rgb(123, 146, 18);
     font-size: medium;
     font-family:bold, sans-serif;
-    padding-top: 70px;
-    padding-bottom: 70Px;
-    background: url('../images/imgc.jpg') no-repeat bottom right fixed;
+    background-image: url('../images/imgc.jpg') no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
+    
 }
