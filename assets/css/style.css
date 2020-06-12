@@ -1,51 +1,82 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500,600,700,800,900')
 
- body {
+*{
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    overflow-y: scroll;
-    position: relative;
 }
- .container-fluid {
-     padding: 0 40px;
- }
-
- ul {
-     padding-left: 0;
-
- }
-
-   .wrapper-center {
-     margin-top: 30vh;
-     transform: translateY(-50);
-     text-align: center;
- }
-
-/*-------------------------------------------- Header--------------------- */
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-
-.nav-bar:{
+/*-----------------------Navigation----------------*/
+#nav-bar{
+    position: sticky;
     top: 0;
-    position:sticky;
-    z-index: 2;
+    z-index: 10;
+}
+
+.navbar-brand img{
+    height: 40px;
+    padding-left: 30px;
+
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+   float: right;
+   text-align: left;
+} 
+
+.navbar-expand{
+    width: 332px;
+    height: 56px;
+
+}
+
+#nav-bar ul li a:hover {
+    color:rgb(235, 192, 176)!important;
+}
+.navbar{
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: rgb(110, 100, 100)!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+ 
+scroll-btn{
+    bottom: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid #ffffff;
+    padding: 10px 10px 20px;
+    border-radius: 30px;
     
 }
 
-#navbar:{
-    background-color: rgb(231, 129, 129)
+ .scroll-bar span{
+      border: 2px solid #fff;
+      font-size: 10px;
+      border-radius: 30px;
 }
 
+  .scroll-bar {
+      animation: mover 1s infinite alternate;
+  }
 
-.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #337ab7;
-}
- /*----------------------------------scrollbars----------------------------------*/
+  @keyframes mover {
+      0% {transform: translateY(0);}
+      100% {transform: translateY(10px);}
+  }
+  /*----------------------------------scrollbars----------------------------------*/
   .scroll-btn{
     bottom: 30px;
     position: absolute;
@@ -115,6 +146,8 @@
 .carousel-indicators {
     z-index: 2;
 }
+
+
 
 /*-------------------------------------About Me------------------------------*/
 .about {
