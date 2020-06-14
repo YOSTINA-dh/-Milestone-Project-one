@@ -88,12 +88,12 @@
     }
 
     ::-webkit-scrollbar-thumb {
-        background: rgb(94, 145, 153); 
+        background: rgb(235, 192, 176)!important;
         border-radius: 10px;
       }
 
       ::-webkit-scrollbar-thumb:hover {
-        background:rgb(235, 192, 176)!important;
+        background:rgb(94, 145, 153);
       }
 /*-------------------------------Home slider---------------------*/
 .homeslider{
@@ -131,7 +131,7 @@
 }
 .about-section{
     width: 100%;
-    background:#f1f1f1;
+    background:#cfc0c0;
     padding: 40px 0;
 }
 .inner-width{
@@ -139,18 +139,26 @@
     overflow:hidden;
     padding: 0 20px;
     margin: auto;
+    color: black!important;
 
 }
+.innner-width:hover{
 
+color:rgb(233, 154, 125)!important;
+}
+
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+}
 .about-section h3{
     text-align: center;
+    letter-spacing: 5px;
+    text-shadow: wheat;
 }
-.border{
-    width: 100px;
-    height: 3px;
-    background: #743c;
-    margin: 40px auto;
-}
+
 .about-section-row{
     display: flex;
     flex-wrap: wrap;
@@ -167,20 +175,6 @@
 .about p{
     text-align: justify;
     margin-bottom: 20px;
-}
-
-.about a{
-    display: inline-block;
-    color:#e7c43c;
-    text-decoration: none;
-    border:2px solid #e74c3c;
-    border-radius: 24px;
-    padding:8px 40px;
-    transition: 0.5s linear;
-}
-.about a:hover{
-    color:#fff;
-    background: #e74c3c;
 }
 
 .skills{
