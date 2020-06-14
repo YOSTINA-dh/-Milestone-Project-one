@@ -129,128 +129,110 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.container{
-    padding-top: 40px;
-    padding-bottom: 40px;
+.about-section{
+    width: 100%;
+    background:#f1f1f1;
+    padding: 40px 0;
 }
-
-.profile-img{
-  border: 1px solid rgb(180, 163, 163);
-  border-radius: 4px;
-  padding: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  width: 300px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  height: 600px;
-  width: 350px;
+.inner-width{
+    max-width: 1000px;
+    overflow:hidden;
+    padding: 0 20px;
+    margin: auto;
 
 }
 
-.profile-img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
-  }
-  .header-container{
-      color:balck;
-      text-transform: uppercase;
-      display: rgb(194, 112, 83)!important;
-      font-size: 30px;
-      font-weight: 300;
-      text-align: center;
-      top: 50%;
-      right: 50% ;
-      width: 100%;
-      letter-spacing: 8px;
-      margin-bottom: 0px;
-      background: rgb(194, 112, 83)!important;
-  }
- .text-container{
-    background-color: lightgrey;
-    width: 510px;
-    padding:30px;
-    margin: 30px;
+.about-section h3{
     text-align: center;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-size: 16px;
-    
-      
-  } 
-
-.three-reasons-icon {
-    font-size: 26px;
-    color: #e67e22;
+}
+.border{
+    width: 100px;
+    height: 3px;
+    background: #743c;
+    margin: 40px auto;
+}
+.about-section-row{
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.three-reasons-heading {
-    margin-bottom: 15px;
+.about-section-col{
+    flex: 50%;
 }
 
-/*-----------------------------------------Services--------------------------*/
+.about{
+    padding-right: 30px;
 
- #services {
-    padding-top: 50px;
-    padding-bottom: 50Px;
+}
+.about p{
+    text-align: justify;
+    margin-bottom: 20px;
 }
 
-
-.services h1{
-    margin-bottom: 15px;
+.about a{
+    display: inline-block;
+    color:#e7c43c;
+    text-decoration: none;
+    border:2px solid #e74c3c;
+    border-radius: 24px;
+    padding:8px 40px;
+    transition: 0.5s linear;
+}
+.about a:hover{
+    color:#fff;
+    background: #e74c3c;
 }
 
-.services-box {
-    background: #f9f9f9;
-    padding: 10px;
-    margin-top: 20px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
+.skills{
+    padding-left:30px;
 }
 
-.services-box .fa{
-     margin: 0 10px;
-     font-size: 20px;
+.skill{
+    margin-bottom:10px;
 }
 
-.services-box .span{
-    margin: 3px;
-    font-size: 20px;
-    font-weight: bold;
+.progress{
+    width: 100%;
+    height: 12px;
+    background: #ddd;
+    border-radius: 12px;
 }
 
-.services-box p{
-    font-size: 15px;
-    margin-top: 20px;
-    color: #777;
-    
+.progress-bar{
+    height: 12px;
+    background: #e74c3c;
+    border-radius: 12px;
 }
 
+}
+.p1,.p4{
+    width: 90%;
+}
+.p2{
+    width: 85%;
+}
+.p3,.p5,.p6{
+    width: 80%;
+}
 
-.services-box:hover{
-    background: rgb(119, 223, 142);
+.progress-bar span{
+    float:right;
+    margin-right: 6px;
+    line-height: 13px;
     color: #fff;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius:50px;
-    border-bottom-right-radius: 50px;
-    transition: 1s;
+    font-size: 12px;
 }
 
-.services-box:hover p{
-     color: rgb(238, 235, 235);
-}  
+@media screen and (max-width: 700px){
+    .about-section-col{
+    flex: 100%;
+    margin: 10px 0;
+}
+   .about,.skills{
+       padding:0;
+}
 
-
-/*--------------------------Contact---------------------------------*/
-
-.contact{
-    color: rgb(123, 146, 18);
-    font-size: medium;
-    font-family:bold, sans-serif;
-    background-image: url('../images/imgc.jpg') no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
+.about {
+    text-align: center;
+}
 }
