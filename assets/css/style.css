@@ -19,10 +19,12 @@
 }
 .navbar-nav li{
     padding: 0 10px;
+    
 }
 .navbar-nav li a{
    float: right;
    text-align: left;
+   color:rgb(238, 119, 119)!important;
 } 
 
 .navbar-expand{
@@ -32,7 +34,7 @@
 }
 
 #nav-bar ul li a:hover {
-    color:rgb(235, 192, 176)!important;
+    color:rgb(228, 221, 126)!important;;
 }
 .navbar{
     background: #fff;
@@ -58,7 +60,7 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    border: 2px solid #ffffff;
+    border: 2px solid #e69797;
     padding: 10px 10px 20px;
     border-radius: 30px; 
 }
@@ -70,12 +72,11 @@
 }
 
   .scroll-bar{
-      animation: mover 1s infinite alternate;
+      animation: mover 2s infinite alternate;
   }
-
-  @keyframes:mover {
-      0%{transform: translateY(0);}
-      100%{transform: translateY(10px);}
+   @keyframes:mover{
+      0%{transform: translateY(0)};
+      100%{transform: translateY(10px)};
   }
 
   ::-webkit-scrollbar {
@@ -93,12 +94,13 @@
         border-radius: 10px;
       }
 
-      ::-webkit-scrollbar-thumb:hover {
+  ::-webkit-scrollbar-thumb:hover{
         background:rgb(94, 145, 153);
       }
 /*-------------------------------Home slider---------------------*/
 .homeslider{
     width: 100%;
+    height: auto;
 }
 
 .carousel-caption h5{
@@ -109,8 +111,8 @@
     color:rgb(235, 192, 176)!important;
 }
 .carousel-caption {
-    top: 50%;
-    transform: translateY(-50%);
+    top: 60%;
+    transform: translateY(-60%);
     text-align: center;
 }
 
@@ -127,113 +129,79 @@
 
 /*-------------------------------------About Me------------------------------*/
 .about {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.about-section{
-    width: 100%;
-    background:rgb(246, 235, 235)!important;
-    padding: 40px 0;
-}
-.inner-width{
-    max-width: 1000px;
-    overflow:hidden;
-    padding: 0 20px;
-    margin: auto;
-    color: black!important;
+.profile-img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 500px;
+    border: 2px solid rgb(240, 177, 177)!important;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+      }
+.profile-img:hover {
+    box-shadow: 0 0 20px 20px rgb(240, 204, 204)!important;
+  }
 
-}
-.innner-width:hover{
+  .box {
+   position: relative;
+   transform: translate(-50% -50%);
+   background:rgb(246, 235, 235)!important;
+   box-sizing: border-box;
+   padding: 15px;
+   transition: 5s;
+   overflow:hidden;}
 
-color:rgb(238, 199, 185)!important;
-}
+   .box p{
+       margin: 0;
+       padding: 0;
+       color: black!important;
+       font-size: 14px;
+       transition: 5s;
+       transform: scale(.8);
+   }
+    
+ .box:hover p{
+     transform: scale(p);
+ }
 
-.profile-img {
-  border-radius: 50%;
-  width: 300;
-  height: 300px;
-
-}
-
-.img-center{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 25%;
-  border-radius: 8px;
-  width: 300;
-  height: 300px;
-}
-
-.about-section h3{
-    text-align: center;
-    letter-spacing: 6px;
-    text-shadow: wheat;
+ .box:hover {
+    box-shadow: 0 50px 50px rgba(0,0,0,.8);
 }
 
-.about-section-row{
-    display: flex;
-    flex-wrap: wrap;
-}
+ .box span{
+     position: relative;
+     top:0;
+     left:-120;
+     width: 100%;
+     height: 100%;
+     transition: 5s;
+    transition-delay: 2s;
+    transform: skewX(5deg);
+ }
+ .box:hover span {
+     left: 120%;
+ }
 
-.about-section-col{
-    flex: 50%;
-    margin-top: 0;
-}
+  .skillas-bar p{ 
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
 
-.about{
-    padding-right: 30px;
+  .progress{
+      border-radius: 16px !important;
+      margin-bottom: 10px;
 
-}
-.about p{
-    text-align: justify;
-    margin-bottom: 20px;
-    margin-top: 0;
-    background-color: rgb(240, 207, 204);
-}
+  }
 
-.skills{
-    padding-left:30px;
-    margin-top: 0;
-}
+  .progress-bar {
+      border-radius: 16px;
+      width: 50px;
+      background:  rgb(199, 160, 160)!important;
 
-.skill{
-    margin-bottom:10px;
-}
-
-.progress{
-    width: 100%;
-    height: 12px;
-    background: #ddd;
-    border-radius: 12px;
-}
-
-
-skills-bar p{
-    margin-bottom: 6px;
-    font-weight: 600px;
-}
-.progress {
-   border-radius: 16px !important;
-   margin-bottom: 10px;
-   background-color: rgb(201, 156, 140)!important;
-}
-
-.progress-bar{
-    border-radius: 16px;
-    background: rgb(224, 185, 171)!important;
-}
-
-
-.skills-bar {
-    width: 500px;
-    font-family: sans-serif;
-    font-weight: bold;
-    letter-spacing: 1px;
-    padding: 10px;  
-    margin: 10px;
-   
-}
+  }
 
 
 /*-------------------------------------Resume------------------------------*/
@@ -254,7 +222,7 @@ skills-bar p{
 
 .timeline:before{
     content:'' ;
-    background-color:rgb(241, 198, 198);
+    background-color:rgb(235, 146, 146);
     display:inset-block;
     position: absolute;
     left: 29px;
@@ -271,7 +239,7 @@ skills-bar p{
 }
 
 .timeline li h4{
-    background-color: rgb(236, 183, 183)!important;
+    background-color: rgb(199, 160, 160)!important;
     padding:5px 0 5px 20px;
     color: black!important;
     font-family: 'Times New Roman', Times, serif;
@@ -281,11 +249,11 @@ skills-bar p{
 
 .timeline li:before{
     content:'' ;
-    background:rgb(197, 119, 119)!important;
+    background:rgb(224, 167, 167)!important;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border:3px solid rgb(235, 164, 164)!important;
+    border:3px solid rgb(238, 193, 193)!important;
     left:20px;
     width: 20px;
     height: 20px;
@@ -294,13 +262,15 @@ skills-bar p{
 }
 
 /*-----------------------------------SERVICES---------------------*/
-.servicescontainer{
-    margin: 20px auto;
-    text-align: center;
-    background: rgb(246, 235, 235)!important;
+.services{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+    
 }
 
-.h1{
+.services h1{
+    margin-bottom: 15px;
     font-family: sans-serif;
     letter-spacing: 1px;
 }
@@ -317,11 +287,18 @@ skills-bar p{
 
 .services-box {
     background: #f9f9f9;
+    padding:10px;
     margin-top:20px;
     padding: top 20px;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
-    box-sizing: content-box;
+    
+}
+
+.services-box p{
+    font-size: 15px;
+    margin-top: 20px;
+    
 }
 
 .icon{
@@ -330,11 +307,74 @@ skills-bar p{
     padding: 20px;
     height: 80px;
     width: 80px;
-    border: 1px solid rgb(219, 148, 122)!important;
+    border: 2px solid rgb(219, 148, 122)!important;
     border-radius: 50%;
 }
 .col-md-5:hover{
     box-shadow: 5px 7px 9px -3px  rgba(238, 81, 81, 0.5);
     cursor: pointer;
 }
+
+.services-box:hover{
+    background:rgb(238, 201, 187)!important;;
+    color:#fff;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius:50px;
+    border-bottom-right-radius:50px;
+    transition:1s;
+
+}
+
+.services-box:hover p{
+    color:#fff;
+}
+
+/*-----------------------------------CONTACT-----------------------------*/
+.contact{
+  padding-top: 50px;
+  background: linear-gradient(rgb(246, 235, 235),rgba(233, 209, 209, 0.8));
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color:black;
+}
+
+.contact .row{
+   padding:30px;
+   font-size: 22px;
+}
+
+.contact .col-md-4 .fa{
+    padding:10px;
+    font-size: 40px; 
+ }
+
+ .contact .btn{
+    padding:10px 25px 10px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border:2px solid #fff;
+    background: transparent;
+ }
+
+ .contact .btn:hover{
+    border: 2px sloid #000 !important;
+    background: #000 !important;
+    transition: 1s;  
+ }
+
+ .contact .btn .fa{
+    margin-right:10px;
+    
+ }
+
+ /*-----------------------------------------FOOTER----------------------*/
+ .fotter{
+     background:#000;
+     height: 10px;
+     margin-top: 10px;
+     color:black;
+     padding-top: 10px;
+ }
 
