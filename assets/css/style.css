@@ -311,7 +311,7 @@
     border-radius: 50%;
 }
 .col-md-5:hover{
-    box-shadow: 5px 7px 9px -3px  rgba(238, 81, 81, 0.5);
+    box-shadow: 5px 7px 9px -3px  rgba(214, 99, 99, 0.5);
     cursor: pointer;
 }
 
