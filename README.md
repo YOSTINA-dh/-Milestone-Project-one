@@ -40,12 +40,10 @@ This project can replicate by anyone interested in building something similar.
 ## Wireframes
 
 Pictures from Balsamiq:
-[Link](assets/Wireframes/Miestone-project-one.pdf)
+[Link](assets/Wireframes/Milestone-Project-one.pdf)
 
 ## Features
 Future Planned for the functionality of the interactive features and implemented and described for development.
-
-### Planned Features
 
 ## Planned Features
 - Focused on user-centric front-end development
