@@ -1,4 +1,4 @@
-# My protofolio Viewer
+# My protfolio Viewer
 
 This Website built for educational purposes, and I designed the site to 
 make information about myself and to view easily accessible, to allow people 
