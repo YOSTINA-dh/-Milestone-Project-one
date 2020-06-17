@@ -23,7 +23,7 @@
 .navbar-nav li a{
    float: right;
    text-align: left;
-   color:#fff!important;
+   color:black!important;
    font-size: 14px;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 } 
@@ -60,10 +60,6 @@
 }
  
   /*----------------------------------scrollbars----------------------------------*/
-  
-  .scroll-bar{
-      animation: mover 2s infinite alternate;
-  }
    @keyframes:mover{
       0%{transform: translateY(0)};
       100%{transform: translateY(10px)};
@@ -80,12 +76,12 @@
     }
 
     ::-webkit-scrollbar-thumb {
-        background: rgb(235, 192, 176)!important;
+        background: rgb(236, 191, 175)!important;
         border-radius: 10px;
       }
 
-  ::-webkit-scrollbar-thumb:hover{
-        background:rgb(94, 145, 153);
+     ::-webkit-scrollbar-thumb:hover{
+        background:rgb(169, 205, 211);
       }
 /*-------------------------------Home slider---------------------*/
 .homeslider{
@@ -94,15 +90,15 @@
 }
 
 .carousel-caption h5{
-    color: #fffeff;
-    font-size: 38px;
+    color: rgb(238, 161, 133)!important;
+    font-size: 26px;
 }
 .carousel-caption h5:hover {
-    color:rgb(238, 161, 133)!important;
+    color:#fff!important;
 }
 .carousel-caption {
-    top: 60%;
-    transform: translateY(-60%);
+    top: 30%;
+    transform: translateY(30%);
     text-align: center;
 }
 
@@ -119,8 +115,8 @@
 
 /*-------------------------------------About Me------------------------------*/
 .about {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .profile-img{
     padding-top: 50px;
@@ -228,8 +224,8 @@
 
 /*-------------------------------------Resume------------------------------*/
 .resume{
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background:rgb(246, 235, 235)!important;
 }
 .resume h3{
@@ -244,7 +240,7 @@
 
 .timeline:before{
     content:'' ;
-    background-color:rgb(235, 146, 146);
+    background-color:rgb(235, 168, 168);
     display:inset-block;
     position: absolute;
     left: 29px;
@@ -275,7 +271,7 @@
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border:3px solid rgb(238, 193, 193)!important;
+    border:3px solid rgb(241, 220, 220)!important;
     left:20px;
     width: 20px;
     height: 20px;
@@ -360,7 +356,7 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  color:#fff;
+  color:black;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 15px;
 
@@ -376,19 +372,19 @@
     font-size: 16px; 
  }
  .contact .col-md-4 a{
-     color: #fff;
+     color:#000;
  }
  .contact .btn{
     padding:10px 25px 10px 25px;
     margin: 5px;
     border-radius: 30px;
-    border:2px solid #fff;
+    border:2px solid #000;
     background: transparent;
  }
 
  .contact .btn:hover{
     border: 2px sloid #000 !important;
-    background:white !important;
+    background:rgb(226, 150, 150) !important;
     transition: 1s;  
  }
 
