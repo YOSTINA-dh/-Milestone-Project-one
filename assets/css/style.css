@@ -23,6 +23,7 @@ text-align : left;
 color : black !important ;
 font-size : 16px;
 font-family : "josefin sans", sans-serif;
+background : #eec5c5;
 }
 .navbar-expand {
 width : 332px;
@@ -148,22 +149,34 @@ transform : skewX(5deg);
 left : 120%;
 }
 .skills-bar p {
-margin-bottom : 10px;
+margin-bottom : 6px;
 font-weight : 600;
 }
 .progress {
+ border-radius: 16px;
+ margin-bottom: 10px; 
 display : flex;
 height : 1rem;
 overflow : hidden;
 line-height : 0;
 font-size : 0.75rem;
-background :#8cd1ec;
+background :#eec5c5;
 }
-.progress-bar {
-border-radius : 16px;
-width : 50px;
-background-color : #c7a0a0;
+.progress-bar{
+   display: flex;
+  -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 16px;
+    text-align: center;
+    white-space: nowrap;
+    /* background-color: #007bff; */
+    transition: width .6s ease;  
+    background-color: #a2c9ee;
 }
+
 /*-------------------------------------Resume------------------------------*/
 .resume {
 padding-top : 30px;
@@ -311,7 +324,7 @@ display : inline-block;
 font-weight : 400;
 color : white;
 text-align : center;
-vertical-align : middle;
+vertical-align : center;
 }
 /*-----------------------------------------SOCIAL ICONS------------------------*/
 .Social-icons {
