@@ -91,9 +91,13 @@ text-align : center;
 }
 
 .carousel-item {
-height : inherit;
-vertical-align : middle;
-border-style : none;
+    height : inherit;
+    vertical-align : middle;
+    border-style : none;
+}
+
+.img-fluid {
+    max-width: 100%;
 }
 .carousel-indicators {
 z-index : 2;
@@ -160,9 +164,9 @@ height : 1rem;
 overflow : hidden;
 line-height : 0;
 font-size : 0.75rem;
-background :#eec5c5;
+background-color: rgba(141, 134, 134, 0.473)!important;
 }
-.progress-bar{
+.progress-bar-style{ 
    display: flex;
   -ms-flex-direction: column;
     flex-direction: column;
@@ -174,7 +178,7 @@ background :#eec5c5;
     white-space: nowrap;
     /* background-color: #007bff; */
     transition: width .6s ease;  
-    background-color: #a2c9ee;
+    background-color: #eec5c5 !important ;
 }
 
 /*-------------------------------------Resume------------------------------*/
@@ -283,80 +287,3 @@ color : #fff;
 }
 
 /*-----------------------------------CONTACT-----------------------------*/
-.contact {
-padding-top : 50px;
-padding-bottom : 50px;
-background-color : #eec5c5;
-background-position : center;
-background-attachment : fixed;
-background-size : cover;
-color : black;
-font-family : "josefin sans", sans-serif;
-font-size : 16px;
-}
-.contact .row {
-padding : 30px;
-font-size : 16px;
-}
-.contact .col-md-4 .fa {
-padding : 10px;
-font-size : 16px;
-}
-.fa:hover {
-opacity : 0.7;
-}
-.contact .col-md-4 a {
-color : #000;
-position : relative;
-}
-.contact .btn a {
-color : #000;
-}
-.contact .btn {
-padding : 10px 25px 10px 25px;
-margin : 5px;
-border-radius : 30px;
-border : #000 solid 2px;
-background : transparent;
-}
-.btn {
-display : inline-block;
-font-weight : 400;
-color : white;
-text-align : center;
-vertical-align : center;
-}
-/*-----------------------------------------SOCIAL ICONS------------------------*/
-.Social-icons {
-top : 50%;
-transform : translateY(-50%);
-position : sticky;
-width : 80px;
-display : inherit;
-}
-.Social-icons ul {
-padding : initial;
-}
-.Social-icons ul li {
-height : 40px;
-width : 40px;
-list-style-type : none;
-padding-left : 12px;
-padding-top : 6px;
-margin-top : 5px;
-color : white;
-background : rgb(199, 160, 160) !important ;
-}
-.Social-icons ul li:hover {
-padding-left : 30px;
-width : 80px;
-transition : 2s;
-}
-/*-----------------------------------------FOOTER----------------------*/
-.fotter {
-background : #000;
-height : 10px;
-margin-top : 10px;
-color : #000;
-padding-top : 10px;
-}
