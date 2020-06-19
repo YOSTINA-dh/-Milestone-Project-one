@@ -14,7 +14,7 @@ It is a one-stop-shop for me to show my branding and build a profile on my skill
 
 ### Ux
 
-![Responsive Views of Home Page](assets/images/Responsive.jpg)
+![Responsive Views of Home Page]
 
 ### Users 
 
@@ -119,6 +119,84 @@ This project makes use of:
 - [Stackoverflow]( https://stackoverflow.com/) 
     - **Stackoverflow** was used for research and quations. 
 
+## Testing
+This site was thouroughly tested manually.
 
+### The W3C CSS and Markup validation serviced 
+The W3C was used for test first development where tests are written first then the fuctionality is written to pass the tests.
+Steps to test with Jasmine are as follows: 
+
+1. Open the  https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/
+2. Run using a live server process or copy your url 
+3. once you do that click to check 
+4. Then will show the result and the validation of the code.
+
+## Compatibility & Responsiveness 
+
+This site was tested across the following browsers to ensure that all functionalities render well in different browsers:
+1. Google Chrome
+2. Internet Explorer
+3. Safari 
+4. Mozilla Firefox
+
+I also  tested directly  on the following devices:
+1.  Galaxy S5
+2.  Pixel 2 
+3.  Pixel 2 XL 
+4. iPhone 5/SE 
+5. iPhone 5/SE 
+6. iPhone 6/7/8 
+7. iPhone 6/7/8 Plus 
+8. iPhone X 
+9. iPad 
+10. iPad Pro 
+
+## Deployment
+
+The project is hosted on [GitHub Pages] (https://github.com/YOSTINA-dh/My-Portfolio)
+
+The process involved:
+- Host a git repository on GitHub.
+- The root folder contains README.md and index.html files
+- On GitHub repository settings page move to GitHub Pages section
+- Change source to master branch. (Or any desired branch)
+- Provided link will be your projects home (index) page.
+ 
+To deploy your own version of the website:
+- Have git installed
+- Visit the [repository]([https://github.com/YOSTINA-dh/My-Portfolio)
+- Click 'Clone or download' and copy the code for http
+- Open your chosen IDE (Cloud9, VS Code, etc.)
+- Open a terminal in your root directory
+- Type 'git clone ' followed by the code taken from github repository
+    - ```git clone https://github.com/Yostina-dh/My-Portfolio-ifd-project.git```
+- When this completes you have your own version of the website
+    - Feel free to make any changes to it
+- The website can be run by opening one of the HTML files within a web browser
+- Visit the link provided
+- Your website with any made changes will appear
+- Saved changes to the website will appear here after refreshing the page
+
+The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+
+It may take a moment for changes to appear on the hosted website.
+
+During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
+
+
+## Credits
+
+### Media
+The images for the website are taken by Anna Schoripix
+- [My former workplace](https://chiffer.se/)
+
+
+### Acknowledgements
+Thank you to the following for inspiration, motivation and the direction I needed:
+- Noel Daniel  (Thank You for motivating me to be a better person And showing me the potential I don't see it before. It is all about you.)
+- Seun Owonikoko  @seun_mentor (Thankyou For Being The Best Mentor )
+- Code Institute  (https://codeinstitute.net/)
+- Stackoverflow (https://stackoverflow.com/)
+- My family  (Than you for you love and support)
 
 
