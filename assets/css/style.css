@@ -13,8 +13,8 @@
     box-shadow : 0 0 6px rgb(0, 0, 0, 0.3) inset;
     }
  body::-webkit-scrollbar-thumb {
-    background-color : rgb(243, 197, 197);
-    outline : 1px solid rgb(135, 170, 206);
+    background-color : #f3c5c5;
+    outline : 1px solid #87aace;
     }
 
     /*-----------------------Navigation----------------*/
@@ -24,17 +24,18 @@
     z-index : 10;
     }
 .navbar-brand img {
-    height : 30px;
-    padding-left : 30px;
+    height : 40px;
+    padding-left : 40px;
     }
 .navbar-nav li {
     padding : 0 10px;
     }
  .navbar-nav li a {
-    float : right;
+    float : left;
     text-align : left;
-    color : black !important ;
-    font-size : 16px;
+    color : #000;
+    font-size : 18px;
+    font-weight: bold;
     font-family : "josefin sans", sans-serif;
     background : #eec5c5;
     }
@@ -55,7 +56,7 @@
     }
 
 #nav-bar ul li a:hover {
-    color : rgb(245, 122, 77) !important ;
+    color : #f57a4d ;
     }
     
 .navbar {
@@ -80,49 +81,34 @@
     border : none !important ;
     }
 .nav-link {
-    color : rgb(110, 100, 100) !important ;
+    color : #6e6464 ;
     font-weight : 600;
     font-size : 16px;
-    }
-
-.nav-color{
-        color: #da2a36;
-        font-weight: bold;
-    }
-
+}
 /*-------------------------------Home slider---------------------*/
-.homeslider {
+
+ .homeslider {
     width : 100%;
     height : auto;
     }
 .carousel-caption h2{
-    color : #000;
-    background-color : white;
-    width : 40%;
+    color : #fff;
+    background-color:black;
+    text-transform: uppercase;
+    width: fit-content;
     opacity : 70%;
     margin : auto;
     font-size : 20px;
-    }
-.carousel-caption h5{
-    color : #000;
-    background-color : white;
-    width : 40%;
-    opacity : 70%;
-    margin : auto;
-    font-size : 20px;
-    }
+    display: block;
+}
  .carousel-caption h2:hover {
-    color : rgb(226, 94, 94) !important ;
-     }
- .carousel-caption h5:hover {
-    color : rgb(179, 34, 34) !important ;
-     }
+    color : #e2705e ;
+ }
 .carousel-caption {
     top : 30%;
     transform : translateY(30%);
-    text-align : center;
-    }
-    
+ }
+
 .carousel-item {
         height : inherit;
         vertical-align : middle;
@@ -135,13 +121,7 @@
     }
 .carousel-indicators {
     z-index : 2;
-    }
-    @media screen and (max-width: 480px) {
- .carousel-indicators{
-        background-color : #750c0c;
-        }
-  }
-
+ }
      /*-------------------------------------About Me------------------------------*/
 .about {
     padding-top : 10px;
@@ -150,19 +130,19 @@
     padding-top : 50px;
     padding-bottom : 50px;
     height : 500px;
-    border : rgb(240, 177, 177) solid 2px !important ;
+    border : #f0b1b1 solid 2px !important ;
     border-radius : 4px;
     padding : 5px;
     width : 300px;
     }
 .profile-img:hover{ 
-    box-shadow : 0 0 20px 20px rgb(240, 204, 204) !important ;
+    box-shadow : 0 0 20px 20px #f0cccc !important ;
     }
 .box {
-    margin-top : 25px;
-    margin-bottom : 25px;
+    margin-top : 10px;
+    margin-bottom : 50px;
     position : relative;
-    background : rgb(246, 235, 235) !important ;
+    background : #f6ebeb !important ;
     box-sizing : border-box;
     transition : 5s;
     overflow : hidden;
@@ -170,8 +150,8 @@
  .box p {
     margin : 0;
     padding : 0;
-    color : black !important ;
-    font-size : 16px;
+    color : #000 !important ;
+    font-size : 18px;
     font-family : "josefin sans", sans-serif;
     transition : 5s;
     transform : scale(0.8);
@@ -203,7 +183,7 @@
     overflow : hidden;
     line-height : 0;
     font-size : 0.75rem;
-    background-color: rgba(141, 134, 134, 0.473)!important;
+    background-color: #8d8585!important;
     }
 .progress-bar-style{ 
        display: flex;
@@ -222,7 +202,7 @@
     /*-------------------------------------Resume------------------------------*/
 .resume {
     padding-top : 30px;
-    background : rgb(246, 235, 235) !important ;
+    background : #f6ebeb ;
     }
 .resume h3 {
     margin-bottom : 50px;
@@ -234,33 +214,35 @@
     }
  .timeline:before {
     content : '';
-    background-color : rgb(235, 168, 168);
+    background-color : #eba8a8;
     position : absolute;
     left : 29px;
     width : 2px;
     height : 100%;
     z-index : 1;
     }
+
 .timeline li {
     margin-top : 20px;
     margin-bottom : 20px;
     margin-left : 20px;
     }
+ 
  .timeline li h4 {
-    background-color : rgb(199, 160, 160) !important ;
+    background-color : #c7a0a0 ;
     padding : 5px 0 5px 20px;
-    color : black !important ;
-    font-family : 'Times New Roman', Times, serif;
+    color : #000 ;
+    font-family : "josefin sans", sans-serif;
     font-size : 16px;
-    font-weight : bold;
-    }
+}
+
 .timeline li:before {
     content : '';
-    background : rgb(224, 167, 167) !important ;
+    background : #e0a7a7 !important ;
     display : inline-block;
     position : absolute;
     border-radius : 50%;
-    border : rgb(241, 220, 220) solid 3px !important ;
+    border : #f1dcdc solid 3px !important ;
     left : 20px;
     width : 20px;
     height : 20px;
@@ -273,11 +255,13 @@
     padding-bottom : 30px;
     padding-left : 50px;
     }
+
 .services h1 {
     margin-bottom : 15px;
     font-family : "josefin sans", sans-serif;
     letter-spacing : 1px;
     }
+
 .h1:after {
     content : '';
     background : white;
@@ -297,11 +281,14 @@
     margin-top : 20px;
     border-top-right-radius : 50px;
     border-bottom-left-radius : 50px;
-    }
+ }
+
 .services-box p {
-    font-size : 16px;
+    font-size : 14px;
     margin-top : 20px;
+    font-family: "josefin sans", sans-serif;
     }
+
 .icon {
     font-size : 40px;
     margin : 20px auto;
@@ -311,10 +298,12 @@
     border : rgb(219, 148, 122) solid 2px !important ;
     border-radius : 50%;
     }
+
 .col-md-5:hover {
-    box-shadow : 5px 7px 9px -3px rgb(214, 99, 99, 0.5);
+    box-shadow : 5px 7px 9px -3px #D66363;
     cursor : pointer;
     }
+
 .services-box:hover {
     background : rgb(238, 201, 187) !important ;
     color : #fff;
@@ -324,6 +313,7 @@
     border-bottom-right-radius : 50px;
     transition : 1s;
     }
+
 .services-box:hover p {
     color : #fff;
     }
@@ -333,15 +323,17 @@
     background: #eec5c5;
     background-size: cover;
     color: #000;
-    line-height: 1.6;
+    line-height: 1;
     font-family: "josefin sans", sans-serif;
     padding: 0px;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
     box-sizing: border-box;
-  }
-  
+    border-radius: 20%;
+    
+}
+
 .contact-container ul{
     list-style: none;
     padding: 0;
@@ -365,7 +357,7 @@
   }
   
 .wrapper {
-    box-shadow: 0 0 20px 0 rgba(170, 183, 231, 0.7);
+    box-shadow: 0 0 20px 0 #5975e6;
   }
   
 .wrapper > * {
@@ -379,6 +371,8 @@
     background: #eec5c5;;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
+     border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
   }
   
 .company-info h3,p
@@ -422,23 +416,19 @@
     vertical-align : center;
     }
     
-  /* CONTACT */
- 
+        /* CONTACT */
 
 .contact {
     background: #d8c2c2;
-    border-bottom-left-radius: 2px;
-    border-bottom-right-radius: 2px;
-  }
-  
- 
-  /* FORM */
- 
+ }
+
+        /* FORM */
+
 .contact form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
-  }
+ }
   
 .contact form label {
     display: block;
@@ -466,10 +456,9 @@
   }
   
 .contact form button {
-    background: #f3aeae;
+    background: #eec5c5;;
     border: 0;
-    color: #1b1919;
-    text-transform: uppercase;
+   color: #1b1919;
     font-size: 14px;
     font-weight: bold;
   }
@@ -482,7 +471,7 @@
     transition: background-color 2s ease-out;
   }
 
-  .footer {
+.footer {
     background : #eec5c5;
     height : 10px;
     margin-top : 10px;
@@ -546,7 +535,7 @@
 
 .rounded-social-buttons .social-button.github:hover,
  .rounded-social-buttons .social-button.github:focus {
-  color: #000;
+  color: #eec5c5;
   background: #fff;
   border-color: #000;
 }
@@ -557,7 +546,7 @@
 
 .rounded-social-buttons .social-button.linkedin:hover,
  .rounded-social-buttons .social-button.linkedin:focus {
-  color: #007bb5;
+  color: #eec5c5;
   background: #fefefe;
   border-color: #007bb5;
 }
@@ -568,26 +557,24 @@
 
 .rounded-social-buttons .social-button.twitter:hover, 
 .rounded-social-buttons .social-button.twitter:focus {
-  color: #007bb5;
+  color: #eec5c5;;
   background: #fefefe;
   border-color: #007bb5;
 }
 
 
 .rounded-social-buttons .social-button.instagram {
-  background: #eb3f3f;
+  background: #e28080;
 }
 
 .rounded-social-buttons .social-button.instagram:hover, 
 .rounded-social-buttons .social-button.instagram:focus {
-  color: #8f0e0e;
-  background: #fff;
-  border-color: #4b080c;
+  color: #633c3c;
+  background: #e59b9b;
+  border-color: rgb(212, 104, 104);
 } 
 
-    /* MEDIA QUERIES */
-
-
+        /* MEDIA QUERIES */
 @media only screen and (min-width: 700px) {
 .wrapper {
       display: grid;
@@ -595,15 +582,15 @@
     }
   
 .wrapper > * {
-      padding: 2em;
+      padding: 1em;
     }
   
 .company-info {
-      border-radius: 4px 0 0 4px;
+      border-radius: 10px 5 5 10px;
     }
   
 .contact {
-      border-radius: 0 4px 4px 0;
+      border-radius: 10 5px 10px 5px;
     }
   
 .company-info h3,
@@ -612,5 +599,6 @@
       text-align: left;
     }
   }
+
 
 
