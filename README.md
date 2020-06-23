@@ -124,24 +124,17 @@ Both business and customer goals are addressed through user stories.
 #### Colors
 
 Following colors have been used:
-* ![##eec5c5](Light grayish red) 
-* ![##f57a4d](Soft orange) 
-* ![#6e6464](Very dark grayish red) 
-* ![#ffffff](White) 
-* ![#0000 ](black) 
-* ![#e2705e](Soft red)
-* ![#f0cccc](Soft red) 
-* ![#e2705e](Light grayish red) 
-* ![##8d8585](Dark grayish red) 
-* ![#d66363](Moderate red) 
-* ![#5975e6]Soft blue) 
-* ![#3b5998](Dark moderate blue) 
-* ![#007bb5](Strong blue) 
-* ![#633c3c](Very dark desaturated red) 
-* ![#d46868](Moderate red) 
-
-
-
+* ![#ffaa00](https://placehold.it/15/eec5c5/000000?text=+)#eec5c5(Light grayish red)
+* ![#f57a4d](https://placehold.it/15/f57a4d/000000?text=+)#f57a4d(Soft orange)
+* ![#6e6464](https://placehold.it/15/6e6464/000000?text=+)#6e6464(Very dark grayish red)
+* ![#f5f5f5](https://placehold.it/15/f5f5f5/000000?text=+)#f5f5f5 (Very light gray) (mostly white)
+* ![#0000](https://placehold.it/15/00000/000000?text=+)#0000(black)
+* ![#8d8585](https://placehold.it/15/8d8585/000000?text=+)#8d8585 (Soft red)
+* ![#5975e6](https://placehold.it/15/5975e6/000000?text=+)#5975e6(Soft blue)
+* ![#007bb5](https://placehold.it/15/#007bb5/000000?text=+)#007bb5(Moderate red)
+* ![#d66363](https://placehold.it/15/d66363/000000?text=+)#d66363(Very dark desaturated red)
+* ![#d46868](https://placehold.it/15/d46868/000000?text=+)(Moderate red)
+  
 The stand out colour for this web page is Light grayish red and white. The reason I choose this color is that I'm just a color-loving person, and I want to reflect on my websites, one of my favorite color.
 
 
