@@ -117,8 +117,6 @@ Both business and customer goals are addressed through user stories.
 * As a UX designer, I want to track the user behaviour so that I can improve the user experience.
   * As a UX designer, I want to track the user behaviour so that I can identify any possible user confusion over navigating the website.
   
-
-
 ### Design
 * [Users Logo ](assets/images/logo.jpg)
 * Users Logo - Black and white the first alphabet of my name and its representing me.
@@ -126,21 +124,21 @@ Both business and customer goals are addressed through user stories.
 #### Colors
 
 Following colors have been used:
-* ![##eec5c5](https://placehold.it/15/ffaa00/000000?text=+) #eec5c5 (Light grayish red) 
-* ![##f57a4d](https://placehold.it/15/000000/000000?text=+) #f57a4d (Soft orange) 
-* ![#6e6464](https://placehold.it/15/589500/000000?text=+) #6e6464(Very dark grayish red) 
-* ![#ffffff](https://placehold.it/15/008500/000000?text=+) #ffffff  (White) 
-* ![#0000 ](https://placehold.it/15/d836c4/000000?text=+)  #0000 (black) 
-* ![#e2705e](https://placehold.it/15/decb1f/000000?text=+) #e2705e (Soft red)
-* ![#f0cccc](https://placehold.it/15/decb1f/000000?text=+) #f0cccc  (Soft red) 
-* ![#e2705e](https://placehold.it/15/decb1f/000000?text=+) #e2705e (Light grayish red) 
-* ![##8d8585](https://placehold.it/15/decb1f/000000?text=+) #8d8585 (Dark grayish red) 
-* ![#d66363](https://placehold.it/15/decb1f/000000?text=+) #d66363 (Moderate red) 
-* ![#5975e6](https://placehold.it/15/decb1f/000000?text=+) #5975e6 Soft blue) 
-* ![#3b5998](https://placehold.it/15/decb1f/000000?text=+) #3b5998 (Dark moderate blue) 
-* ![#007bb5](https://placehold.it/15/decb1f/000000?text=+) #007bb5 (Strong blue) 
-* ![#633c3c](https://placehold.it/15/decb1f/000000?text=+) #633c3c (Very dark desaturated red) 
-* ![#d46868](https://placehold.it/15/decb1f/000000?text=+) #d46868 (Moderate red) 
+* ![##eec5c5](Light grayish red) 
+* ![##f57a4d](Soft orange) 
+* ![#6e6464](Very dark grayish red) 
+* ![#ffffff](White) 
+* ![#0000 ](black) 
+* ![#e2705e](Soft red)
+* ![#f0cccc](Soft red) 
+* ![#e2705e](Light grayish red) 
+* ![##8d8585](Dark grayish red) 
+* ![#d66363](Moderate red) 
+* ![#5975e6]Soft blue) 
+* ![#3b5998](Dark moderate blue) 
+* ![#007bb5](Strong blue) 
+* ![#633c3c](Very dark desaturated red) 
+* ![#d46868](Moderate red) 
 
 
 
@@ -241,8 +239,6 @@ Pictures from Balsamiq:
 
 
 ## Testing
-
-## Testing
 This site was thouroughly tested manually.
 ## Compatibility & Responsiveness 
 
@@ -327,8 +323,8 @@ All content on the web page was written by me with the exception of the elements
 #### Pages used for information
 
 * [The freecodecamp/](https://www.freecodecamp.org/)
-* [Youtuber](https://www.whatsdev.com/)
-* [Youtuber](http://www.cleverprogrammer.com/)
+* [YouTuber](https://www.whatsdev.com/)
+* [YouTuber](http://www.cleverprogrammer.com/)
 * [W3schools](https://www.w3schools.com/)
 * [W3C](https://www.w3.org/)
 * [Stack overflow](https://stackoverflow.com/)
@@ -341,7 +337,7 @@ All content on the web page was written by me with the exception of the elements
  * Nejat Ahmed (My Friend)
  * Leykun Adugna (My Friend)
  
-  **(My Family and  Dearest Noel Daniel thank you for your love, support, motivating me to be a better person, and showing me the potential I don't see it before. It is all about you, Guys.)**
+  **(My Family and  Dearest Noel Daniel,thank you for your love, support, motivating me to be a better person, and showing me the potential I don't see it before. It is all about you, Guys.)**
 
 ## Disclaimer
 
