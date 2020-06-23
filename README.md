@@ -1,139 +1,252 @@
-# My protfolio Viewer
+# # My Portfolio
 
-This Website built for educational purposes, and I designed the site to 
-make information about myself and to view easily accessible, to allow people 
-to see my works and offers to collaborate with various companies around the globe.
+A live demo can be found [here](https://yostina-dh.github.io/My-Portfolio/.)
 
-This portfolio provides information about my services, including about my page, 
-contact information, resume, and even takes into consideration both international
-users and local users. So it has both English and Swedish versions.
+![Desktop Demo](assets/images/demo_img.jpg)
 
-This site developed as a prototype that can be used right after school, just add some future technology. 
-That is why it already has all the features of my existing services offered.
+## Introduction
+
+My Portfolio is a personal web developer portfolio website.
+
+I designed the Website to make information about myself and to view easily accessible, to allow people to see my works and offers, even to collaborate with individuals and various companies around the globe. The portfolios present:
+* Personal Information
+* Working History
+* Educational Background 
+* Services
+* Offers
+* Contact Information
+* Language alternative
+
+
+The primary purpose of the website is to show the services and offers, even to make myself a brand. That is why it already has all the features of my existing services. Any companies HR-Recruiter or individual users can easily find the Contact button both in the menu bar and at the bottom of the page.
+
 It is a one-stop-shop for me to show my branding and build a profile on my skills and attributes.
 
-### Ux
+It also takes into account both international users and local users. So it has both English and Swedish versions.
 
-![Responsive Views of Home Page]
+The site is responsive and can be easily navigate in any type of device.
 
-### Users 
+## Table of Content
 
-The project is intended to show information about myself and my brand. 
-The site layout is exquisite and simple. It is responsive and can be easily
-navigate across all types of devices. The user lands on the Home page, 
-where they can navigate to an about me page, resume, services, and contact information.
-This project can replicate by anyone interested in building something similar.
+1. [UX](#ux)
+    * [Goals](#goals)  
+    *   [My Portfolio](#My-Portfolio)
+        * [Business goals](#business-goals)
+        * [Customer goals](#customer-goals)
+    * [User Stories](#user-stories)
+        * [A Developer](#A-Developer)
+        * [Company and Business owner](#Companyand-Business-owner)
+         * [The UX designer](#the-ux-designer)
+    * [Design](#design)
+        * [Colors](#colors)
+    * [Wireframes](#wireframes)
+2. [Features](#features)
+    * [Existing Features](#existing-features)
+        * [Elements present on every page](#elements-present-on-every-page)
+        * [Other elements](#other-elements)
+    * [Features left to implement](#features-left-to-implement)
+3. [Technologies Used](#technologies-used)
+4. [Testing](#testing)
+5. [Compatibility & Responsiveness ](#Compatibility-Responsiveness)  
+6. [Deployment](#deployment)
+    * [Hosting on GitHub Pages](#hosting-on-github-pages)
+    * [How to run this project locally](#how-to-run-this-project-locally)
+7. [Credits](#credits)
+    * [Media](#media)
+    * [Acknowledgements](#acknowledgements)
+        * [Examples and Tutorials and Samples](#examples-and-tutorials-and-samples)
+        * [Pages used for information](#pages-used-for-information)
+        * [I received advice and encouragement from](#i-received-advice-and-encouragement-from)
+8. [Disclaimer](#disclaimer)
+
+## UX
+
+### Goals
+
+#### My Portfolio
+
+The goal of the site is to show services and offers, even make myself a brand and, in turn, attract companies and anyone who wants to collaborate.
+
+**Target users is:**
+
+* Anyone who needs a developer.
+* All small business owners who wish to update a website or work together.
+* All start-ups who want a website or digital marketing.
+* Any companies who want a freelance developer.
+
+
+#### Business goals
+
+* To create a network
+* Have a fully proficient web page.
+* Fully functional website.
+* Have an intuitive design.
+
+
+#### Customer goals
+
+* Make functional networks in the technology sector either outside the industry.
+* Find a Developer  who has experience in the services required.
+* Find previous works made by other Developers.
+* Find a Developer meetup club or groups.
+
+Both business and customer goals are addressed through user stories.
+
 
 ### User Stories
-1. A user wants to show the services to anyone who wants to work together and build something special together.
-2. A professional education user wants to share learning resources with other developers.
-3. As a recruiter user, I want more information about the person and want to see if he/she is capable enough for hiring or collaboration.
-4. For any company that recruits users seeking information and services, <br>
-   it must have some specific information to reach the person quickly via social media and direct phone.
-5. As users of this site, it must be easy to navigate, and the pages should be appealing on all devices.
+#### A Developer
 
- ### Design
+* As a Developer, I want to show my work and my educational background so that companies can easily see if I can fill in the company's gaps or for some cooperation.
+* As a Developer, I want my page to load quickly so that the user can easily get involved.
+* As a Developer, I want to show positive reviews so that I convince companies to hire me or to work together.
+* As a Developer, I want any users to have an easy way to find my contact details so that they can see my offer services.
+* As a Developer, I want my services for locals users and international users that can be attractive for all kinds of companies and even for individuals.
+* As a Developer, I want to do quality work and give an affordable price for my services so that I can make them happy, and I can build a useful and broad network. 
 
-![Users Logo ](assets/images/logo.jpg)
-- Users Logo - Black and white the first alphabet of the user and name of the user representing Yostina.
+#### company And Business owner
 
-## Wireframes
+* As a company ,I want more information about the person and want to see if he/she is capable enough for hiring or collaboration.
+* As a company, I want to see a person's skills and how many programming languages ​​he/she knows so that I can determine if the quality of work meets my requirements and standards.
+* As a company, I want to know the person's educational background and experience so that I can quickly negotiating for a salary.
+* As a Business owner, I want to know how I contact the person to ask project request.
+* As a Business owner, I want to know the services and offers before requesting for collaboration or a single project request so it can help me compare with another Developers.
+* As a Business owner, I want to see examples of best-offered Services so that I can determine if the quality of work meets my requirements and standards.
+
+#### The UX designer
+
+* As a UX designer, I want to track the user behaviour so that I can improve the user experience.
+  * As a UX designer, I want to track the user behaviour so that I can identify any possible user confusion over navigating the website.
+  
+
+
+### Design
+* [Users Logo ](assets/images/logo.jpg)
+* Users Logo - Black and white the first alphabet of my name and its representing me.
+
+#### Colors
+
+Following colors have been used:
+* ![##eec5c5](https://placehold.it/15/ffaa00/000000?text=+) #eec5c5 (Light grayish red) 
+* ![##f57a4d](https://placehold.it/15/000000/000000?text=+) #f57a4d (Soft orange) 
+* ![#6e6464](https://placehold.it/15/589500/000000?text=+) #6e6464(Very dark grayish red) 
+* ![#ffffff](https://placehold.it/15/008500/000000?text=+) #ffffff  (White) 
+* ![#0000 ](https://placehold.it/15/d836c4/000000?text=+)  #0000 (black) 
+* ![#e2705e](https://placehold.it/15/decb1f/000000?text=+) #e2705e (Soft red)
+* ![#f0cccc](https://placehold.it/15/decb1f/000000?text=+) #f0cccc  (Soft red) 
+* ![#e2705e](https://placehold.it/15/decb1f/000000?text=+) #e2705e (Light grayish red) 
+* ![##8d8585](https://placehold.it/15/decb1f/000000?text=+) #8d8585 (Dark grayish red) 
+* ![#d66363](https://placehold.it/15/decb1f/000000?text=+) #d66363 (Moderate red) 
+* ![#5975e6](https://placehold.it/15/decb1f/000000?text=+) #5975e6 Soft blue) 
+* ![#3b5998](https://placehold.it/15/decb1f/000000?text=+) #3b5998 (Dark moderate blue) 
+* ![#007bb5](https://placehold.it/15/decb1f/000000?text=+) #007bb5 (Strong blue) 
+* ![#633c3c](https://placehold.it/15/decb1f/000000?text=+) #633c3c (Very dark desaturated red) 
+* ![#d46868](https://placehold.it/15/decb1f/000000?text=+) #d46868 (Moderate red) 
+
+
+
+The stand out colour for this web page is Light grayish red and white. The reason I choose this color is that I'm just a color-loving person, and I want to reflect on my websites, one of my favorite color.
+
+
+#### Font
+
+The Fonts I used for this project are **Josefin Sans**  with the font weights: 
+* 14px- for most of the subtext.
+* 16px/bold - for headers and titles.   
+
+The [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans) the font was chosen for its looking good on all types of devices.
+
+### Wireframes
+
+I decided that it would be more helpful to have mockups than simple wireframes. The mockups were done in [balsamiq](https://balsamiq.com/). 
 
 Pictures from Balsamiq:
 [Link](assets/Wireframes/Milestone-Project-one.pdf)
 
+
 ## Features
-Future Planned for the functionality of the interactive features and implemented and described for development.
-
-## Planned Features
-- Focused on user-centric front-end development
-- HTML, CSS Framework and Bootstrap
-    - Grid System - Columns and Rows
-    - Boxs
-    - Icons
-- Responsive design - Mobile First
-- UX elements
-    - User Flow
-    - Hover
-    - Transitions
-- Accesibility
-- Git - Version Control 
-- GitPod-Version Control 
-- GitHub - Remote Repository
-- Deployed - Hosted on Github Pages
-- Documentation - ReadMe File
-- Custom Logo
-
 ### Existing Features
-- Focused on user-centric front-end development
-- HTML, CSS Framework and Bootstrap
-    - Grid System - Columns and Rows
-    - Boxs
-    - Icons
-- Responsive design - Mobile First
-- UX elements
-    - User Flow
-    - Hover
-    - Transitions
-- Accesibility
-- Git - Version Control 
-- GitPod-Version Control 
-- GitHub - Remote Repository
-- Deployed - Hosted on Github Pages
-- Documentation - ReadMe File
-- Custom Logo
 
-### Features Left to Implement
-   - Add new features for accessibility for all types of users—for example, a text reader for those who are not able to read the text by themselves.
-   - Add other sections, such as a project section and blog section.
-   - Add a view comment box in the contact section and GPS location.
-   - Add 3D Animation.
+#### Elements seen on every page
+
+* **Layout and Style**
+    * Before jumping into my project I researched different layout and structure for a simple portfolio website, and I noticed that most portfolio pages were very loaded, more animated and used too many languages, so I decided that mine would be classic and simple according to my short term code experience
+
+* **Navigation bar**
+    * Has a `fixed` position to ensure that the user can access it at any time.
+    * My Portfolio and brand name in the left corner which also serves as a link to go back to the landing page. (assets/images/logo.jpg)
+
+* **Footer**
+    * Copyright information.
+
+* **Images**
+    * one of the images has a light gray red floating effect
+
+#### Other elements
+
+* **Landing page**
+    * Has images and text. A text represents the images, and it can change the color when `hover` or clicked on. 
+
+* **About Me page**
+    * Has a box-text and an image showing a piece of information.The images indicator has a white color, and Z-index is 2px.
+
+* **Resume page**
+    * Has two columns loaded with experience history and educational background.
+    
+* **Service pages**
+    * Has four boxes filled with available services and beautiful hover effect used.
+
+* **Contact  page**
+    * Has a form which asks for contact information and a message. The form boxes have Light grayish red borders and light blue shadow.
+    * Social media links - facebook, Twitter, Instagram and Youtube (linked to relevant login page).
+    * Phone Number (linked to click-to-call function).
+    * Email Address (linked to mailto function).
+    * Printable version of my CV can download it on a new tab.
+
+### Features left to implement
+
+* Add new features for accessibility for all types of users—for example, a text reader for those who are not able to read the text by themselves.
+* Add other sections, such as a project section and blog section.
+* Add a view comment box in the contact section and GPS location.
+* Add 3D Animation.
 
 ## Technologies Used
 
-This project makes use of:
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    - HTML for strucutre
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-    - CSS for Styling
-- [Bootstrap 4.5.0](https://getbootstrap.com/)
-    - HTML and CSS Framework from **Bootstrap**
-- [w3school] (https://www.w3schools.com/)
-    -**w3school** was used for research and to correct some elements 
-- [Google Chrome](https://www.google.com/chrome/)
-    - Used for browser and dev tools
-- [Google](https://www.google.com/)
-    - **Google** was used for research.
-- [Visual Studio Code](https://code.visualstudio.com/)
-    - This project was built using the **VS Code** IDE for my local machine
-- [Git](https://git-scm.com/)
-    - **Git** used for Version Control
-- [GItpod](https://www.gitpod.io/)
-    -This project imported from **VS Code** IDE to **gitpod**
-- [GitHub](https://github.com/)
-    - Repository hosted on **GitHub**
-- [Am I Responsive](http://ami.responsivedesign.is)
-    - Testing responsiveness of the website
-- [The w3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) 
-    - Testing Css code
-- [Stackoverflow]( https://stackoverflow.com/) 
-    - **Stackoverflow** was used for research and quations. 
+### Languages
+
+* HTML - Base language for this project.
+* CSS - used for styling the HTML code.
+* JQuery - used in conjunction with Bootstrap.
+
+### Libraries
+
+* [Bootstrap](https://getbootstrap.com/) - used for responsive grid system, navigation and carousel.
+* [JQuery](https://jquery.com/) & [Popper](https://popper.js.org/) - were used in conjunction with the Bootstrap library.
+* [FontAwseome](https://fontawesome.com/) - used for all icons on the site.
+* [Google Fonts](https://fonts.google.com/) - used for the Josefin Sans.
+* [Hover.css](https://ianlunn.github.io/Hover/) - used to animate the naviagtion links, services icons and social media icons.
+
+### Tools
+* [visual studio](https://code.visualstudio.com/) - used for my local machine and use as my first  IDE for this project.
+* [Gitpod](https://www.gitpod.io) - used as a second IDE for this project.
+* [Git](https://git-scm.com/) - used for version control.
+* [Github](https://github.com/) - used to host repository and live website.
+* [Balsamiq](https://balsamiq.com/) - used for creation of mockups.
+* [Am I Responsive](http://ami.responsivedesign.is/) - used for testing purposes as well as creating the image to display the web pages on different devices.
+* [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
+* [PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/) - used for testing the loading speed of the site.
+* [w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
+* [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
+* [Browserstack](https://www.browserstack.com/) - used to test my site on different browsers.
+* [Color Scheme Designer](http://colorschemedesigner.com/) - used to test colour combinations.
+
+
+## Testing
 
 ## Testing
 This site was thouroughly tested manually.
-
-### The W3C CSS and Markup validation serviced 
-The W3C was used for test first development where tests are written first then the fuctionality is written to pass the tests.
-Steps to test with Jasmine are as follows: 
-
-1. Open the  https://validator.w3.org/ and https://jigsaw.w3.org/css-validator/
-2. Run using a live server process or copy your url 
-3. once you do that click to check 
-4. Then will show the result and the validation of the code.
-
 ## Compatibility & Responsiveness 
 
-This site was tested across the following browsers to ensure that all functionalities render well in different browsers:
+* This site was tested across the following browsers to ensure that all functionalities render well in different browsers:
 1. Google Chrome
 2. Internet Explorer
 3. Safari 
@@ -153,50 +266,83 @@ I also  tested directly  on the following devices:
 
 ## Deployment
 
-The project is hosted on [GitHub Pages] (https://github.com/YOSTINA-dh/My-Portfolio)
+This web page was developed in Gitpod and pushed to the remote repository, GitHub. The live page is hosted on GitHub Pages. 
 
-The process involved:
-- Host a git repository on GitHub.
-- The root folder contains README.md and index.html files
-- On GitHub repository settings page move to GitHub Pages section
-- Change source to master branch. (Or any desired branch)
-- Provided link will be your projects home (index) page.
- 
-To deploy your own version of the website:
-- Have git installed
-- Visit the [repository]([https://github.com/YOSTINA-dh/My-Portfolio)
-- Click 'Clone or download' and copy the code for http
-- Open your chosen IDE (Cloud9, VS Code, etc.)
-- Open a terminal in your root directory
-- Type 'git clone ' followed by the code taken from github repository
-    - ```git clone https://github.com/Yostina-dh/My-Portfolio-ifd-project.git```
-- When this completes you have your own version of the website
-    - Feel free to make any changes to it
-- The website can be run by opening one of the HTML files within a web browser
-- Visit the link provided
-- Your website with any made changes will appear
-- Saved changes to the website will appear here after refreshing the page
+**Used commands during deployment:**
+* `git add .` - to add the files to the staging area.
+* `git commit -m "text message here"` - to commit the files.
+* `git push` - to push to origin master branch on to GitHub.
+* `git status` - to see the current status of the files.
 
-The benefits of hosting your website on GitHub pages is that any pushed changes to your project will automatically update the website. Development branches can be created and merged to the master when complete.
+### Hosting on GitHub Pages
 
-It may take a moment for changes to appear on the hosted website.
+* Log into GitHub.
+* From the list of repositories choose [My-Portfolio](https://github.com/YOSTINA-dh/My-Portfolio).
+* Go to settings.
+* Scroll down to GitHub Pages section.
+* Select as a source **master branch**.
+* The page is now automatically refreshed and the project is deployed.
+* To access the project scroll down again to GitHub Pages section and click on the provided link.
 
-During development the site is written in VS Code. It is run using Live Server plugin for VS Code.
+For more detailed information regarding deployment to GitHub Pages click [here](https://pages.github.com/).
 
+### How to run this project locally
+
+**Clone this project from GitHub:**
+
+* Go to [My-Portfolio](https://github.com/YOSTINA-dh/My-Portfolio) GitHub repository.
+* Click on "Clone or download" green button.
+* Copy the URL to the repository.
+* Open the terminal in your IDE.
+* Choose the working directory where you would like to have the cloned repository.
+* Type git clone, and add the URL you copied from Github: `git clone https://github.com/YOSTINA-dh/My-Portfolio.git`
+* Press Enter and your local clone will be created.
+
+For more information regarding cloning of a repository click [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
 
-### Media
-The images for the website are taken by Anna Schoripix
-- [My former workplace](https://chiffer.se/)
+### Content
 
+All content on the web page was written by me with the exception of the elements of navbar and from Bootstrap Carousel for my home page.
+
+### Media
+**Images**
+   * Two images were found on [Unsplash] (https://unsplash.com/images)
+   * And the other two images taken by Photografer [Anna Schoripix and lan Johnson]
 
 ### Acknowledgements
-Thank you to the following for inspiration, motivation and the direction I needed:
-- Noel Daniel  (Thank You for motivating me to be a better person And showing me the potential I don't see it before. It is all about you.)
-- Seun Owonikoko  @seun_mentor (Thankyou For Being The Best Mentor )
-- Code Institute  (https://codeinstitute.net/)
-- Stackoverflow (https://stackoverflow.com/)
-- My family  (Than you for you love and support)
 
+#### Examples and Tutorials and Samples
 
+* [Code Institute](https://github.com/Gmanprodev/Bootstrap) - used the 'Rosie odenkirk' page as the initial code structure for my project. 
+* [The freecodecamp/](https://www.freecodecamp.org/) used to resunme page and understand the syntacs for my code.
+* [Youtuber](https://www.whatsdev.com/) used to for inspiration and ideas for the wbiste structure. 
+* [Youtuber](http://www.cleverprogrammer.com/)used to for inspiration and ideas for the wbiste structure.
+* Inspiration resources for writing this README file:
+    * [Marc Gulliver](https://github.com/Gmanprodev/Mr-Digbee) (A code institute student)
+    
+   
+
+#### Pages used for information
+
+* [The freecodecamp/](https://www.freecodecamp.org/)
+* [Youtuber](https://www.whatsdev.com/)
+* [Youtuber](http://www.cleverprogrammer.com/)
+* [W3schools](https://www.w3schools.com/)
+* [W3C](https://www.w3.org/)
+* [Stack overflow](https://stackoverflow.com/)
+* [CSS-Tricks](https://css-tricks.com/)
+
+ ####   Thank you to the following for inspiration, motivation and the direction I needed:
+ * Seun Owonikoko (My mentor) (Thankyou For Being The Best Mentor)
+ * Code Institute  (https://codeinstitute.net/)
+ * Stackoverflow (https://stackoverflow.com/)
+ * Nejat Ahmed (My Friend)
+ * Leykun Adugna (My Friend)
+ 
+  **(My Family and  Dearest Noel Daniel thank you for your love, support, motivating me to be a better person, and showing me the potential I don't see it before. It is all about you, Guys.)**
+
+## Disclaimer
+
+**This web page was created for educational purpose only.** 

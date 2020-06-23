@@ -34,8 +34,7 @@
     float : left;
     text-align : left;
     color : #000;
-    font-size : 18px;
-    font-weight: bold;
+    font-size : 16px;
     font-family : "josefin sans", sans-serif;
     background : #eec5c5;
     }
@@ -320,8 +319,11 @@
     
 /*-----------------------------------CONTACT-----------------------------*/
 .contact-container{
+    margin-top: 25px;
+    margin-bottom: 25px;
     background: #eec5c5;
     background-size: cover;
+    width: fit-content;
     color: #000;
     line-height: 1;
     font-family: "josefin sans", sans-serif;
@@ -330,7 +332,9 @@
     margin-right: auto;
     padding: 1em;
     box-sizing: border-box;
-    border-radius: 20%;
+    border-radius: 10%;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
     
 }
 
@@ -417,13 +421,10 @@
     }
     
         /* CONTACT */
-
-.contact {
+ .contact {
     background: #d8c2c2;
  }
-
-        /* FORM */
-
+      /* FORM */
 .contact form {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -571,7 +572,7 @@
 .rounded-social-buttons .social-button.instagram:focus {
   color: #633c3c;
   background: #e59b9b;
-  border-color: rgb(212, 104, 104);
+  border-color: #d46868;
 } 
 
         /* MEDIA QUERIES */
