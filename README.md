@@ -6,7 +6,7 @@ A live demo can be found [here](https://yostina-dh.github.io/My-Portfolio/.)
 
 ## Introduction
 
-My Portfolio is a personal web developer portfolio website.
+My Portfolio is a responsive design Website.
 
 I designed the Website to make information about myself and to view easily accessible, to allow people to see my works and offers, even to collaborate with individuals and various companies around the globe. The portfolios present:
 * Personal Information
