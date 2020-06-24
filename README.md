@@ -253,7 +253,7 @@ The W3 Css Validation Service was used for test first development where tests ar
 
 ### My Mentor
 
-* She helped me from the beginning  of the project to end. For instance,
+* She helped me from the beginning  of the project to the end. For instance,
     * To change the burger menu  size and color.
     * Fix the size of the carousel and to make it full size.
     * Create quale distance between all sections border radius begins (seat), so that the border and content isn't making contact 
