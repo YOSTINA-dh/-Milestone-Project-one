@@ -47,17 +47,18 @@ The site is responsive and can be easily navigate in any type of device.
     * [Features left to implement](#features-left-to-implement)
 3. [Technologies Used](#technologies-used)
 4. [Testing](#testing)
+5. [Bugs](#Bugs and Fixes for Future Releases After Testing)
 5. [Compatibility & Responsiveness ](#Compatibility-Responsiveness)  
-6. [Deployment](#deployment)
+7. [Deployment](#deployment)
     * [Hosting on GitHub Pages](#hosting-on-github-pages)
     * [How to run this project locally](#how-to-run-this-project-locally)
-7. [Credits](#credits)
+8. [Credits](#credits)
     * [Media](#media)
     * [Acknowledgements](#acknowledgements)
         * [Examples and Tutorials and Samples](#examples-and-tutorials-and-samples)
         * [Pages used for information](#pages-used-for-information)
         * [I received advice and encouragement from](#i-received-advice-and-encouragement-from)
-8. [Disclaimer](#disclaimer)
+9. [Disclaimer](#disclaimer)
 
 ## UX
 
@@ -131,7 +132,7 @@ Following colors have been used:
 * ![#0000](https://placehold.it/15/00000/000000?text=+)#0000(black)
 * ![#8d8585](https://placehold.it/15/8d8585/000000?text=+)#8d8585 (Soft red)
 * ![#5975e6](https://placehold.it/15/5975e6/000000?text=+)#5975e6(Soft blue)
-* ![#007bb5](https://placehold.it/15/#007bb5/000000?text=+)#007bb5(Moderate red)
+* ![#007bb5](https://placehold.it/15/007bb5/000000?text=+)#007bb5(Strong blue)
 * ![#d66363](https://placehold.it/15/d66363/000000?text=+)#d66363(Very dark desaturated red)
 * ![#d46868](https://placehold.it/15/d46868/000000?text=+)(Moderate red)
   
@@ -160,7 +161,7 @@ Pictures from Balsamiq:
 #### Elements seen on every page
 
 * **Layout and Style**
-    * Before jumping into my project I researched different layout and structure for a simple portfolio website, and I noticed that most portfolio pages were very loaded, more animated and used too many languages, so I decided that mine would be classic and simple according to my short term code experience
+    * Before jumping into my project I researched different layout and structure for a single portfolio website, and I noticed that most portfolio pages were very loaded, more animated and used too many languages, so I decided that mine would be classic and simple according to my short term code experience.
 
 * **Navigation bar**
     * Has a `fixed` position to ensure that the user can access it at any time.
@@ -178,20 +179,20 @@ Pictures from Balsamiq:
     * Has images and text. A text represents the images, and it can change the color when `hover` or clicked on. 
 
 * **About Me page**
-    * Has a box-text and an image showing a piece of information.The images indicator has a white color, and Z-index is 2px.
+    * Has a box-text with`hover` and an image showing a piece of information.
 
 * **Resume page**
-    * Has two columns loaded with experience history and educational background.
+    * Has two columns loaded with work experience and educational background.
     
 * **Service pages**
-    * Has four boxes filled with available services and beautiful hover effect used.
+    * Has four boxes filled by available services and used a beautiful hover effect used.
 
 * **Contact  page**
     * Has a form which asks for contact information and a message. The form boxes have Light grayish red borders and light blue shadow.
-    * Social media links - facebook, Twitter, Instagram and Youtube (linked to relevant login page).
-    * Phone Number (linked to click-to-call function).
+    * Social media links - facebook, Twitter, Instagram and Github.
+    * Phone Number (linked to click-to-call function for small devices).
     * Email Address (linked to mailto function).
-    * Printable version of my CV can download it on a new tab.
+    * Printable version of my CV can download it in a new tab.
 
 ### Features left to implement
 
@@ -217,7 +218,7 @@ Pictures from Balsamiq:
 * [Hover.css](https://ianlunn.github.io/Hover/) - used to animate the naviagtion links, services icons and social media icons.
 
 ### Tools
-* [visual studio](https://code.visualstudio.com/) - used for my local machine and use as my first  IDE for this project.
+* [Visual Studio](https://code.visualstudio.com/) - used for my local machine and use as my first  IDE for this project.
 * [Gitpod](https://www.gitpod.io) - used as a second IDE for this project.
 * [Git](https://git-scm.com/) - used for version control.
 * [Github](https://github.com/) - used to host repository and live website.
@@ -225,14 +226,49 @@ Pictures from Balsamiq:
 * [Am I Responsive](http://ami.responsivedesign.is/) - used for testing purposes as well as creating the image to display the web pages on different devices.
 * [Google Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - used for testing and debugging.
 * [PageSpeed insights](https://developers.google.com/speed/pagespeed/insights/) - used for testing the loading speed of the site.
-* [w3 html validator](https://validator.w3.org/) - used to test and validate my html code.
-* [w3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
+* [W3 html validator](https://validator.w3.org/) - used to test and validate my html code.
+* [W3 css validator](https://jigsaw.w3.org/) - used to test and validate my css code.
 * [Browserstack](https://www.browserstack.com/) - used to test my site on different browsers.
 * [Color Scheme Designer](http://colorschemedesigner.com/) - used to test colour combinations.
 
 
 ## Testing
-This site was thouroughly tested manually.
+This site was thouroughly tested manually and automated.
+
+The W3 Css Validation Service was used for test first development where tests are written first then the fuctionality is written to pass the tests.
+
+### Code Validation
+
+   * I used the [W3C Markup Validation Service](https://validator.w3.org/) to validate my html code.
+   * I used the [W3C CSS Validation Service](https://jigsaw.w3.org/) to validate my css code.
+   * I used the [Free Formatter](https://www.freeformatter.com/) website to format my html code.
+
+ * The code validators highlighted 4 errors and Warning too.
+      * Using incorrect syntax for the resume section and  - this issue has been fixed for the first release.
+      * Missing a to close a section tag inside a resume section  - this issue has been fixed for the first release. 
+   * The carousel issue on the desktop, the images become very wide and do not look natural like dosing it on the smaller devices- to look at in future editions.
+   * Document uses the Unicode Private Use Area(s), which should not be used in publicly exchanged documents-this issue has been fixed for the first release. 
+ 
+## User testing
+
+### My Mentor
+
+* She helped me from the beginning  of the project to end. For instance,
+    * To change the burger menu  size and color.
+    * Fix the size of the carousel and to make it full size.
+    * Create quale distance between all sections border radius begins (seat), so that the border and content isn't making contact 
+    * Reduce the size of the image on the About me image and the box.
+    * Fix the size of about section @ media issue for desktop screen sizes - I tried to solve the problem but but is not solved as she recommend - will look at in future releases.
+
+### Bugs and Fixes for Future Releases After Testing
+
+* **@media** -  After the last session of this project with my mentor, I realize that I still facing to fix the image and the floating effect box on the about section. I think this can be addressed by writing additional CSS for future releases.
+* **Colour Contrasts** - The colours used on the site are too similar and could cause an issue for accessability. These issues will be addressed in the next release.
+* **Social Media Links in Footer** - The social media icons are linked to the correct pages, however these are currently generic login pages. These will direct you to the company specific pages in future releases.
+* **Desktop Lanscape View** - On some home page, when viewing on a desktop in Carousel, has a different result. This will be fixed on the next release.
+* **Bootstrap Carousel** - Not happy with the size of the pictures. It should have to be looking great in a professional way,  Just add a certain future that will make it look good. I think this can be handled by writing additional styling and floating for future releases.
+
+
 ## Compatibility & Responsiveness 
 
 * This site was tested across the following browsers to ensure that all functionalities render well in different browsers:
@@ -242,9 +278,9 @@ This site was thouroughly tested manually.
 4. Mozilla Firefox
 
 I also  tested directly  on the following devices:
-1.  Galaxy S5
-2.  Pixel 2 
-3.  Pixel 2 XL 
+1. Galaxy S5
+2. Pixel 2 
+3. Pixel 2 XL 
 4. iPhone 5/SE 
 5. iPhone 5/SE 
 6. iPhone 6/7/8 

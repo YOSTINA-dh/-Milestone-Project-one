@@ -11,12 +11,12 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
     </head>
+
     <body>
-        <!------------------------------NavigationBar--------------------------->
-        <section id="nav" class="nav-container-fluid">
+     <!--        Navigation-->
             <div id="nav-bar">
                 <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"> <img src="assets/images/logo.jpg"></a>
+                    <a class="navbar-brand" href="index.html"> <img src="assets/images/logo.jpg" alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" 
                         data-target="#navbarNav" aria-controls="navbarNav" 
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -24,11 +24,7 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
-                            <li class="active">
-                                <a href="#home">
-                                    <p class="nav-color">HOME</p>
-                                </a>
-                            </li>
+                            <li class="active"><a href="#home">HOME</a></li>
                             <li><a href="#aboutme">ABOUT ME</a></li>
                             <li><a href="#resume">RESUME</a></li>
                             <li><a href="#services">SERVICES</a>
@@ -38,8 +34,8 @@
                     </div>
                 </nav>
             </div>
-        </section>
-        <!---------------------------------Home------------------------------------>
+
+        <!--    Home-->
         <section id="home" class="home-container-fluid home-page">
             <div id="homeslider">
                 <div id="carouselslide" class="carousel slide" data-ride="carousel">
@@ -50,26 +46,28 @@
                     </ul>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="assets/images/bg_01.jpg" alt="first slider" width="100%">
+                            <img class="d-block w-100" src="assets/images/bg_01.jpg" alt="first">
                             <div class="carousel-caption d-md-block">
-                                <h2>Yostina Desta<br>Full-Stack Developer </h2>
+                                <h2>Yostina Desta <br>
+                                 Full-Stack Developer </h2>
+                                
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/bg_02.jpg" alt="Second slider" width="100%">
+                        <img class="d-block w-100" src="assets/images/bg_02.jpg " alt="second">
                             <div class="carousel-caption d-md-block">
                                 <h2>Solve It!</h2>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="assets/images/bg_03.jpg" alt="third slider" width="100%">
+                        <img class="d-block w-100" src="assets/images/bg_03.jpg" alt="third">
                             <div class="carousel-caption d-md-block">
                                 <h2>Let's Make Something  
                                     <br> Together!
                                 </h2>
                             </div>
                         </div>
-                  </div>
+                    </div>
                     <a class="carousel-control-prev" href="#carouselslide" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
@@ -81,18 +79,19 @@
                 </div>
             </div>
         </section>
-        <!--------------------------------AboutMe----------------------------------->
+
+        <!--    About Me-->
         <section id="aboutme" class="container-fluid about me-page">
             <div class="about container" id="about">
                 <div class="row">
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6">
                         <img src="assets/images/img_01.jpg" alt="profile-img" class="profile-img">
                     </div>
                     <div class="col-md-6">
                         <div class="box">
                             <span></span>
-                            <h3 class="text-center">ABOUT ME...</h3>
-                            <p class="text-center">I am a skilled Full-Stack developer with a 
+                            <h3 class="text-cenetr">ABOUT ME...</h3>
+                            <p>I am a skilled Full-Stack developer with a 
                                 variety of life and technical experience that 
                                 I bring to every project. I mainly create mobile 
                                 apps, design and also work with web development, 
@@ -100,8 +99,7 @@
                                 skills that can easily be applied to all kinds 
                                 of projects. I work quickly and efficiently to 
                                 get things built and work across the stack. 
-                            </p>
-                            <p class="text-center">
+                                <br>
                                 I can help you with a comprehensive solution to 
                                 your project, which also complies with all laws and regulations.
                             </p>
@@ -129,15 +127,13 @@
                             </div>
                         </div>
                     </div>
-             </div>
+                </div>
             </div>
         </section>
-        <!------------------------------------Resume---------------------------------->
-        <section id="resume" class="container-fluid resume-page">
-            <div class="resume" id="resume">
-                <div class="container">
-                    <!----------------Expriences----------------->
-                    <div class="row">
+
+       <!--    Resume-->
+       <section id="resume" class="container-fluid resume -page">
+                    <div class="background">
                         <div class="col-md-6">
                             <h3 class="text-center"><span><i class="fa fa-briefcase" aria-hidden="true"></i></span> My Expriences</h3>
                             <ul class="timeline">
@@ -148,9 +144,9 @@
                                     and databases for website functionality and coding
                                     for mobile platforms.
                                 </p>
-                                <b><i class="fa fa-briefcase" aria-hidden="true"></i></b>--- </br>
-                                <b><i class="fa fa-calendar" aria-hidden="true"></i></b>-Present </br>
-                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>-Stockholm</br>
+                                <b><i class="fa fa-briefcase" aria-hidden="true"></i></b>--- <br>
+                                <b><i class="fa fa-calendar" aria-hidden="true"></i></b>-Present <br>
+                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>-Stockholm <br>
                             </li>
                             <li>
                                 <h4> <span>2020</span>~Administration</h4>
@@ -158,18 +154,18 @@
                                     specific projects and tasks, 
                                     as well as overseeing the work of junior staff.
                                 </p>
-                                <b><i class="fa fa-briefcase" aria-hidden="true"></i></b>-Sandwell</br>
-                                <b><i class="fa fa-calendar" aria-hidden="true"></i></b>-1yr 6M [2019-2020]</br>
-                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>-Stockholm </br>
+                                <b><i class="fa fa-briefcase" aria-hidden="true"></i></b>-Scandiwall<br>
+                                <b><i class="fa fa-calendar" aria-hidden="true"></i></b>-1yr 6M [2019-2020]<br>
+                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>-Stockholm <br>
                             </li>
                             <li>
                                 <h4><span>2019</span>~Office-Manager</h4>
                                 <p>Running of an office on a day-to-day basis and
                                     support the management department.
                                 </p>
-                                <b><i class="fa fa-briefcase" aria-hidden="true"></i></b>-Chiffer Media</br>
-                                <b><i class="fa fa-calendar" aria-hidden="true"></i></b>-2yr [2017-2019]</br>
-                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>-Stockholm </br>
+                                <b><i class="fa fa-briefcase" aria-hidden="true"></i></b>-Chiffer Media<br>
+                                <b><i class="fa fa-calendar" aria-hidden="true"></i></b>-2yr [2017-2019]<br>
+                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>-Stockholm <br>
                             </li>
                             <li>
                                 <h4><span>2017</span>~Database-Administration</h4>
@@ -177,21 +173,23 @@
                                     Check that information published on different channels
                                     is correct, Correction, and Proofreading. 
                                 </p>
-                                <b><i class="fa fa-briefcase" aria-hidden="true"></i></b>-TS Mediefakta</br>
-                                <b><i class="fa fa-calendar" aria-hidden="true"></i></b>-1yr [2016-2017]</br>
-                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Stockholm </br>
+                                <b><i class="fa fa-briefcase" aria-hidden="true"></i></b>-TS Mediefakta<br>
+                                <b><i class="fa fa-calendar" aria-hidden="true"></i></b>-1yr [2016-2017]<br>
+                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Stockholm <br>
                             </li>
-                        </div>
-                        <!---------------------------Education---------------------->
+                         </ul>
+                     </div>
+
+                       <!--   Education-->
                         <div class="col-md-6">
                             <h3 class="text-center"><span><i class="fa fa-graduation-cap" aria-hidden="true"></i></span> Education</h3>
                             <ul class="timeline">
                             <li>
                                 <h4><span>2021</span>~Full-Stack Developer</h4>
                                 <p>Specialize in Front-end and Back-End programming language, such as javascript, Python, SQL/NoSQL, although specialized visual design, web design, or user experience skills.</p>
-                                <b><i class="fa fa-graduation-cap" aria-hidden="true"></i></b>-Code Institute</br>
-                                <b><i class="fa fa-calendar-alt" aria-hidden="true"></i></b>-2020–2021</br>
-                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Distance</br>
+                                <b><i class="fa fa-graduation-cap" aria-hidden="true"></i></b>-Code Institute<br>
+                                <b><i class="fa fa-calendar-alt" aria-hidden="true"></i></b>-2020–2021<br>
+                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Distance<br>
                             <li>
                                 <h4><span>2018</span>~Labour Market Education For Academics</h4>
                                 <p>The short route education is to utilize the participants' 
@@ -199,10 +197,10 @@
                                     the way into the labor market for those
                                     who are born abroad graduatesin.
                                 </p>
-                                <b>School</b>-Uppsala University</br>
-                                <b><i class="fa fa-graduation-cap" aria-hidden="true"></i></b>-Uppsala University</br>
-                                <b><i class="fa fa-calendar-alt" aria-hidden="true"></i></b>-2017–2018</br>
-                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Uppsala </br>
+                                <b>School</b>-Uppsala University<br>
+                                <b><i class="fa fa-graduation-cap" aria-hidden="true"></i></b>-Uppsala University<br>
+                                <b><i class="fa fa-calendar-alt" aria-hidden="true"></i></b>-2017–2018<br>
+                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Uppsala <br>
                             </li>
                             <li>
                                 <h4><span>2017</span>~SIFA (SFEJ) </h4>
@@ -210,9 +208,9 @@
                                     expatriates with professional 
                                     or academic backgrounds.
                                 </p>
-                                <b><i class="fa fa-graduation-cap" aria-hidden="true"></i></b>komvux</br>
-                                <b><i class="fa fa-calendar-alt" aria-hidden="true"></i></b>-2016–2017</br>
-                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Stockholm </br>
+                                <b><i class="fa fa-graduation-cap" aria-hidden="true"></i></b>komvux<br>
+                                <b><i class="fa fa-calendar-alt" aria-hidden="true"></i></b>-2016–2017<br>
+                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Stockholm <br>
                             </li>
                             <li>
                                 <h4><span>2014</span>~Bachelor of political science</h4>
@@ -221,20 +219,20 @@
                                     thoughts, associated constitutions, and political 
                                     beliefs.
                                 </p>
-                                <b><i class="fa fa-graduation-cap" aria-hidden="true"></i></b>-Hawassa University</br>
-                                <b><i class="fa fa-calendar-alt" aria-hidden="true"></i></b>-2011-2014</br>
-                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Ethiopia</br>
+                                <b><i class="fa fa-graduation-cap" aria-hidden="true"></i></b>-Hawassa University<br>
+                                <b><i class="fa fa-calendar-alt" aria-hidden="true"></i></b>-2011-2014<br>
+                                <b><i style="font-size:24px" class="fa">&#xf124;</i></b>Ethiopia<br>
                             </li>
-                        </div>
+                         </ul>
                     </div>
-                </div>
-            </div>
+             </div>
         </section>
-        <!------------------------------------Services------------------------------->
-        <section id="services" class="container-fluid services-page">
-            <div class="services" id="services">
+
+       <!--    Services-->
+       <section id="services" class="container-fluid services-page">
+            <div class="wrapper-center">
                 <div class="container">
-                    <h1 class="text-center">My Offered Services</h1>
+                    <h1 class="text-center"> My Offered Services</h1>
                     <p class="text-center">Let's turn your idea into digital reality!
                         <br>I will draft the best product offer for you.<br> I provide a free 
                         estimate and IT consulting for my clients. 
@@ -257,7 +255,7 @@
                                 </p>
                             </div>
                         </div>
-                      <div class="col-md-5 text-center">
+                        <div class="col-md-5 text-center">
                             <div class="services-box">
                                 <div class="icon">
                                     <i class="fa fa-tablet"></i>
@@ -286,7 +284,7 @@
                                     through world-class digital advertising and by
                                     boosting their digital competence and capabilities.
                                 </p>
-                         </div>
+                            </div>
                         </div>
                         <div class="col-md-5 text-center">
                             <div class="services-box">
@@ -307,49 +305,45 @@
                 </div>
             </div>
         </section>
-        <!-----------------------------------Contact---------------------------------->
-        <section id="contact" class="container-fluid contact-page">
-            <div class="contact-container" id="contact">
+       
+       <!--    contact-->
+       <section id="contact" class="container-fluid contact-page">
+           <div class="con-layer">
                 <div style="text-align: center">
-                    <span>
-                        <h3> TOGETHER WE CAN ACHIEVE GREATNESS!</h3>
-                    </span>
+                        <h3><span> TOGETHER WE CAN ACHIEVE GREATNESS!</span></h3>
                 </div>
-                </br>
+                <br>
                 <div class="wrapper">
                     <div class="company-info" style="text-align: center">
                         <p class="text-style"> Let's Connect </p>
                         <p>"Coming together is a beginning
                             <br>Keeping together is progress<br>
                             Working together is success."
-                        </p>
-                        </br>
+                    </p>
                         <ul style="text-align: center">
-                            <li><i class="fa fa-road"></i> Stockholm,sweden</li>
+                            <li><i class="fa fa-road"></i> Stockholm,Sweden</li>
                             <li><i class="fa fa-phone"></i>+46733522857</li>
                             <li><i class="fa fa-envelope"></i> yostinadesta@gmail.com</li>
                         </ul>
-                        </br>
-                        </br>
+                       <br>
                         <div class="rounded-social-buttons">
                             <P> Follow Me On Social Media!</P>
-                            <a class="social-button github" href="https://github.com/YOSTINA-dh"target="_blank"><i class="fab fa-github"></i></a>
+                            <a class="social-button github" href="https://github.com/YOSTINA-dh" target="_blank"><i class="fab fa-github"></i></a>
                             <a class="social-button linkedin" href="https://se.linkedin.com/in/yostina-desta-54587911a" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a class="social-button twitter" href="https://twitter.com/destayostina"target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a class="social-button twitter" href="https://twitter.com/destayostina" target="_blank"><i class="fab fa-twitter"></i></a>
                             <a class="social-button instagram" href="https://www.instagram.com/yd122127h/" target="_blank"><i class="fab fa-instagram"></i></a>
                         </div>
-                        </br>
-                        </br>
-                        <div style="text-align:center">
+                        <br>
+                     <div style="text-align:center">
                             <P>Need a printable version of my CV? <br>
                                 Download it here!
                             </P>
-                            <button type="button" class="btn btn-one">
-                            <a href="assets/cv/YOSTINADA-RESUME.pdf" target="_blank"class="cv-pdf">
-                            <i class="fa fa-download"></i>Resume</button></a>
+                            <a href="assets/cv/YOSTINADA-RESUME.pdf" target="_blank" class="hvr-sweep-to-bottom">
+                            <i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
                         </div>
                     </div>
-                    <!----------------------------CONTACT FORM---------------------------------->
+
+                   <!--    contact-form-->
                     <div class="contact">
                         <h3>E-mail</h3>
                         <form id="contact-form">
@@ -367,11 +361,11 @@
                             </p>
                             <p>
                                 <label>Phone Number</label>
-                                <input type="text" name="phone" id="phone">
+                                <input type="number" name="phone" id="phone">
                             </p>
                             <p class="full">
                                 <label>Project Description</label>
-                                <textarea name="message" rows="5" id="Project description"></textarea>
+                                <textarea name="projectsummary" id="projectsummary" required></textarea>
                             </p>
                             <p class="full">
                                 <button type="submit">Send project request</button>
@@ -380,12 +374,12 @@
                     </div>
                 </div>
             </div>
-         <!-----------------------------------FOOTER------------------------------>
+        </section>
+            <!--    footer-->
             <footer>
                 <div class="footer text-center">
                     <p>Copyright<i class="fa fa-copyright"></i>2020 By Yostina Desta</p>
                 </div>
-            </footer>
-        </section>
+        </footer>
     </body>
 </html>
