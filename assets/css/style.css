@@ -65,10 +65,9 @@
      padding : 0;
      width : 100%;
 }
- .carousel-inner img {
-     max-width: 100%;
-     height: 100vh;
-}
+.h2, h2{
+    font-size: 1.5rem;
+ }
  .navbar-toggler {
      border : none !important ;
 }
